@@ -1,0 +1,11 @@
+h1 {
+  color:turquoise;
+}
+p{
+  font-size: 30px;
+  font-style: italic;
+  font-weight: bold;
+}
+#first {
+    line-height: 40px;
+}
