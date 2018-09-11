@@ -1,0 +1,11 @@
+h1 {
+  color:pink;
+}
+p{
+  font-size: 15px;
+  font-style: italic;
+  font-weight: bold;
+}
+#first {
+    line-height: 40px;
+}
