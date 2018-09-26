@@ -1,0 +1,25 @@
+body {
+    background-color: #DDDDDD;
+    font-family:sans-serif;
+    color: #DDDDDD;
+}
+
+#left-column {
+    background-color: #001f3f;
+    float: left;
+}
+
+#right-column {
+    background-color: #FF4136;
+    float: right;
+}
+
+.column {
+    padding: 5%;
+    width: 40%;
+    position: relative;
+}
+
+li {
+    margin-bottom: 10px;
+}
