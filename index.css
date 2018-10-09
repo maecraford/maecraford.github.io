@@ -1,12 +1,18 @@
 h1 {
-  color:turquoise;
-  font-family: sans-serif;
+  color:pink;
+  font-family:sans-serif;
 }
+
 p{
   font-size: 30px;
-  font-style: italic;
+  font-style:normal;
   font-weight: bold;
 }
 #first {
     line-height: 40px;
+}
+ {
+    background-color: #DDDDDD;
+    font-family:sans-serif;
+    color: #DDDDDD;
 }
