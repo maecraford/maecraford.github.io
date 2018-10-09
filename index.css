@@ -5,14 +5,9 @@ h1 {
 
 p{
   font-size: 30px;
-  font-style:normal;
+  font-family: sans-serif;
   font-weight: bold;
 }
 #first {
     line-height: 40px;
-}
- {
-    background-color: #DDDDDD;
-    font-family:sans-serif;
-    color: #DDDDDD;
 }
