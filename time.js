@@ -1,13 +1,11 @@
 function updateTime() {
-  var timeHolder =
-  document.querySelector("#time")
+  var timeHolder = document.querySelector("#time")
 
   var date = new Date()
 
-  timeHolder.innerHTML =
-  date.getSeconds()
+  timeHolder.innerHTML = date.getSeconds()
   if (date.getSeconds() == 0)
-    timeHolder.style.color = "purple"
+      timeHolder.style.color = "purple"
 
   else if (date.getSeconds() <30) {
     timeHolder.style.color = "turquoise"
