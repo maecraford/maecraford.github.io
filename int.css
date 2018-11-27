@@ -1,0 +1,9 @@
+#box {
+  height: 200px;
+  width: 200px;
+  position:absolute;
+}
+#background{
+  height:100%;
+  width: 100%
+}
