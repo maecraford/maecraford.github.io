@@ -2,3 +2,8 @@ body {
   background-color: #efcf57;
   position: absolute;
 }
+
+img {
+  width:400px;
+  height:300px;
+}
