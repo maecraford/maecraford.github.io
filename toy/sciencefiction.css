@@ -15,3 +15,14 @@ form {
   cursor: pointer;
   font-family: Futura;
 }
+h1 {
+  position: absolute;
+  font-family: Futura;
+  font-size: 50px;
+  font-style: normal;
+  font-variant: small-caps;
+  font-weight: 400;
+  line-height: 18px;
+  color:#ffffff;
+  text-align:center;
+ }
