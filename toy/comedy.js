@@ -10,7 +10,7 @@ function check (){
   }
 }
 function randomImg(){
-var randomNumber = Math.floor(Math.random() * 17);
+var randomNumber = Math.floor(Math.random() * 12);
 var imgName = "img_" + randomNumber;
 document.getElementById("imageid").src= "COMEDY/" + imgName + ".jpg";
 }
