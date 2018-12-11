@@ -1,3 +1,5 @@
+//document.getElementById('please').addEventListener('change',check);
+
 
 var please = "please";
 function check (){
@@ -8,7 +10,7 @@ function check (){
   }
 }
 function randomImg(){
-var randomNumber = Math.floor(Math.random() * 26);
+var randomNumber = Math.floor(Math.random() * 17);
 var imgName = "img_" + randomNumber;
 document.getElementById("imageid").src= "ACTION/" + imgName + ".jpg";
 }
