@@ -5,9 +5,9 @@ body {
 div {
   color: black;
   font-family: futura;
-  font-size:50px;
+  font-size:20px;
   padding: 20px;
-  width: 800px;
+  width: 400px;
   height: 60px;
   margin-left: 550px;
   border: 1px
@@ -16,18 +16,18 @@ div.s {
   color: black;
   font-family: futura;
   font-style: bold;
-  font-size:50px;
+  font-size:20px;
   padding: 20px;
-  width: 800px;
+  width: 400px;
   height: 60px;
   margin-left: 550px;
   border: 1px
 }
 div.s2 {
   color: black;
-  font-size:50px;
+  font-size:20px;
   padding: 20px;
-  width: 800px;
+  width: 400px;
   height: 60px;
   margin-right: 550px;
   border: 1px
@@ -39,18 +39,18 @@ div.extra {
   font-family: futura;
   font-style: italic;
   padding: 20px;
-  width: 800px;
+  width: 200px;
   height: 60px;
   margin-left: 550px;
   border: 1px
 }
 div.title {
   color: black;
-  font-size:80px;
+  font-size:40px;
   font-family: futura;
   font-style: italic;
   padding: 20px;
-  width: 800px;
+  width: 400px;
   height: 60px;
   margin-left: 550px;
   border: 1px
