@@ -4,7 +4,7 @@ body {
 }
 div {
   color: black;
-  font-family: futura;
+  font-family: Comic Sans MS;
   font-size:20px;
   padding: 20px;
   width: 400px;
@@ -14,7 +14,7 @@ div {
 }
 div.s {
   color: black;
-  font-family: futura;
+  font-family: Comic Sans MS;
   font-style: bold;
   font-size:20px;
   padding: 20px;
@@ -26,6 +26,7 @@ div.s {
 div.s2 {
   color: black;
   font-size:20px;
+  font-family: Comic Sans MS;
   padding: 20px;
   width: 400px;
   height: 20px;
@@ -36,7 +37,7 @@ div.s2 {
 div.extra {
   color: black;
   font-size:15px;
-  font-family: futura;
+  font-family: Comic Sans MS;
   font-style: italic;
   padding: 20px;
   width: 400px;
@@ -47,8 +48,7 @@ div.extra {
 div.title {
   color: black;
   font-size:40px;
-  font-family: futura;
-  font-style: italic;
+  font-family: Comic Sans MS;
   padding: 20px;
   width: 400px;
   height: 20px;
