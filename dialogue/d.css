@@ -8,7 +8,7 @@ div {
   font-size:20px;
   padding: 20px;
   width: 400px;
-  height: 60px;
+  height: 40px;
   margin-left: 550px;
   border: 1px
 }
@@ -19,7 +19,7 @@ div.s {
   font-size:20px;
   padding: 20px;
   width: 400px;
-  height: 60px;
+  height: 40px;
   margin-left: 550px;
   border: 1px
 }
@@ -28,7 +28,7 @@ div.s2 {
   font-size:20px;
   padding: 20px;
   width: 400px;
-  height: 60px;
+  height: 40px;
   margin-right: 550px;
   border: 1px
 }
@@ -39,8 +39,8 @@ div.extra {
   font-family: futura;
   font-style: italic;
   padding: 20px;
-  width: 200px;
-  height: 60px;
+  width: 400px;
+  height: 40px;
   margin-left: 550px;
   border: 1px
 }
@@ -51,7 +51,7 @@ div.title {
   font-style: italic;
   padding: 20px;
   width: 400px;
-  height: 60px;
+  height: 40px;
   margin-left: 550px;
   border: 1px
 }
