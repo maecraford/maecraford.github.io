@@ -1,0 +1,57 @@
+body {
+  background-color: white
+
+}
+div {
+  color: black;
+  font-family: futura;
+  font-size:50px;
+  padding: 20px;
+  width: 800px;
+  height: 60px;
+  margin-left: 550px;
+  border: 1px
+}
+div.s {
+  color: black;
+  font-family: futura;
+  font-style: bold;
+  font-size:50px;
+  padding: 20px;
+  width: 800px;
+  height: 60px;
+  margin-left: 550px;
+  border: 1px
+}
+div.s2 {
+  color: black;
+  font-size:50px;
+  padding: 20px;
+  width: 800px;
+  height: 60px;
+  margin-right: 550px;
+  border: 1px
+}
+
+div.extra {
+  color: black;
+  font-size:20px;
+  font-family: futura;
+  font-style: italic;
+  padding: 20px;
+  width: 800px;
+  height: 60px;
+  margin-left: 550px;
+  border: 1px
+}
+div.title {
+  color: black;
+  font-size:80px;
+  font-family: futura;
+  font-style: italic;
+  padding: 20px;
+  width: 800px;
+  height: 60px;
+  margin-left: 550px;
+  border: 1px
+}
