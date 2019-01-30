@@ -5,9 +5,10 @@ body {
 div {
 	color: white;
 	font-family: helvetica;
-	font-size: 40px;
+	font-size: 50px;
 	  padding: 20px;
-  width: 750px;
+  width: 800px;
   height: 100px;
-  margin-left: 550px;
+  margin-left: 250px;
+  position: absolute;
 }
