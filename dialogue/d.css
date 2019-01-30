@@ -4,40 +4,39 @@ body {
 }
 div {
   color: black;
-  font-family: Comic Sans MS;
-  font-size:20px;
+  font-family: 'Pangolin';
+  font-size:30px;
   padding: 20px;
-  width: 400px;
-  height: 20px;
-  margin-left: 100px;
+  width: 500px;
+  height: 50px;
   border: 1px;
 }
 div.s {
   color: black;
-  font-family: Comic Sans MS;
+  font-family: 'Pangolin';
   font-style: bold;
-  font-size:20px;
+  font-size:55px;
   padding: 20px;
-  width: 400px;
-  height: 20px;
-  margin-left: 100px;
-  border: 1px
+  width: 750px;
+  height: 50px;
+  text-align: right;
+float: right;
 }
 div.s2 {
   color: black;
-  font-size:20px;
-  font-family: Comic Sans MS;
+  font-size:55px;
+  font-family: 'Pangolin';
   padding: 20px;
-  width: 400px;
-  height: 20px;
-  margin-right: 100px;
-  border: 1px
+  width: 750px;
+  height: 50px;
+  float: right;
+text-align: right;
 }
 
 div.extra {
   color: black;
-  font-size:15px;
-  font-family: Comic Sans MS;
+  font-size:20px;
+  font-family: 'Pangolin';
   font-style: italic;
   padding: 20px;
   width: 400px;
@@ -46,8 +45,18 @@ div.extra {
   border: 1px
 }
 div.title {
+  color: white;
+  font-size:20px;
+  font-family: 'Pangolin';
+  padding: 20px;
+  width: 400px;
+  height: 20px;
+  margin-left: 50px;
+  border: 1px
+}
+div.arthur {
   color: black;
-  font-size:40px;
+  font-size:20px;
   font-family: Comic Sans MS;
   padding: 20px;
   width: 400px;
@@ -55,3 +64,19 @@ div.title {
   margin-left: 50px;
   border: 1px
 }
+  div.title2 {
+  color: black;
+  font-size:20px;
+  font-family: 'Pangolin';
+text-align: right;
+}
+div.head {
+  color: black;
+  font-size:105px;
+  font-family: 'Boogaloo';
+  padding: 10px;
+  width: 1400px;
+  height: 1000px;
+  margin-left: 50px;
+
+
