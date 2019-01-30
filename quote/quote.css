@@ -1,14 +1,13 @@
 
 body {
 	background-color: white;
-
+	margin: 0;
 }
 div {
 	color: #3c5a8c;
 	font-family: 'Bitter', serif;
 	font-size: 20px;
-	  padding: 20px;
-  width: 1200px;
+  width: 100%px;
   height: 500px;
   text-align: center;
 
@@ -18,8 +17,7 @@ div.italic{
 	font-family:  'Bitter', serif;
 	font-style: italic;
 	font-size: 20px;
-	  padding: 20px;
-  width: 1200px;
+  width: 100%px;
   height: 200px;
 }
 div.title{
@@ -27,7 +25,7 @@ div.title{
 	font-family: 'Courgette', cursive;
 	font-style: italic;
 	font-size: 50px;
-  width: 1300px;
+  width: 100%px;
   height: 800px;
   background-color: #3c5a8c;
   margin:0;
