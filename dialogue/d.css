@@ -7,7 +7,7 @@ div {
   font-family: 'Pangolin';
   font-size:30px;
   padding: 20px;
-  width: 50%;
+  width: 30%;
   height: 50px;
   border: 1px;
 }
@@ -17,7 +17,7 @@ div.s {
   font-style: bold;
   font-size:55px;
   padding: 20px;
-  width: 50%;
+  width: 65%;
   height: 50px;
   text-align: right;
 float: right;
