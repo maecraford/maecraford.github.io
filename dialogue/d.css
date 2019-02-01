@@ -57,7 +57,7 @@ div.title {
 div.arthur {
   color: black;
   font-size:20px;
-  font-family: Comic Sans MS;
+  font-family: 'Pangolin';
   padding: 20px;
   width: 400px;
   height: 20px;
@@ -69,6 +69,10 @@ div.arthur {
   font-size:20px;
   font-family: 'Pangolin';
   font-style: italic;
+text-align: right;
+  width: 50%;
+  height: 20px;
+  float: right;
 text-align: right;
 }
 div.head {
