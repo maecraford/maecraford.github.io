@@ -3,8 +3,13 @@ body {
 	margin:0px;
 }
 div.title{
-	margin:0px;
+	margin:0 auto;
 }
 div.arthur {
 	font-family: 
+}
+#box {
+  height: 200px;
+  width: 200px;
+  position:absolute;
 }
