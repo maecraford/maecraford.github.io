@@ -1,11 +1,15 @@
-var box = document.querySelector("#box")
+    var follower = document.getElementById("follower")
+    document.addEventListener("mousemove", handleFollower)
 
-window.addEventListener("mousemove",onMouseMove)
+    function handleFollower(evt) {
+        var tag = evt.target.tagName.toLowerCase()
 
-function onMouseMove(evt){
-  console.log(evt.x + " " + evt.y)
-  box.style.left = evt.x + "px"
-  box.style.top = evt.y + "px"
+        if (tag == "a" || tag == "button") {
+            follower.style.animationPlayState = "running"
+        } else {
+            follower.style.animationPlayState = "paused"
+        }
 
-}
-var background = document.querySelector("background")
+        follower.style.left = evt.pageX - 80 + "px"
+        follower.style.top = evt.pageY - 80 + "px"
+    }
