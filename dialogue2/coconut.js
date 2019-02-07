@@ -13,3 +13,5 @@
         follower.style.left = evt.pageX - 80 + "px"
         follower.style.top = evt.pageY - 80 + "px"
     }
+
+
