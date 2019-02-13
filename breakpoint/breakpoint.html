@@ -5,7 +5,6 @@
 <style>
 * {
   box-sizing: border-box;
-  background-color: lightpink;
 }
 
 .row::after {
@@ -20,7 +19,8 @@
 }
 
 html {
-  font-family: "Lucida Sans", sans-serif;
+  font-family: "futura", sans-serif;
+  font-style: italic;
 }
 
 .header {
@@ -82,32 +82,49 @@ html {
     width: 100%;
   }
 }
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
+div.yeehaw {
+  background-color: beige;
+  color:hotpink;
+  height: 200px;
+  width:100%;
+  padding: 40px;
+  border-radius: 100px;
+  font-size: 80px;
+  text-align: center;
+  margin-top: 250px;
+}
+
+@media screen and (max-width: 600px) {
+  div.yeehaw {
+    display: none;
+  }
+}
+@media screen and (min-width: 600px) {
+  div.howdy {
+    display: none;
+  }
+}
+
+div.howdy {
+	color: darkblue;
+	font-size: 50px;
+margin-top: 200px;
+margin-left: 200px;
+}
 </style>
 </head>
 <body>
-
-<div class="header">
-  <h1></h1>
+<div class="howdy">
+	HOWDY
 </div>
-
-<div class="row">
-  <div class="col-3 menu">
-    <ul>
-    <li></li>
-    <li></li>
-    <li></li>
-    </ul>
-  </div>
-
+<div class="yeehaw">YEEHAW</div>
   <div class="col-6">
   </div>
-
-  <div class="col-3 right">
-    <div class="aside">
-    </div>
-  </div>
-</div>
-
 
 </body>
 </html>
