@@ -7,3 +7,7 @@ a:hover{
 a:active{
 	color:lightgreen;
 }
+h1{
+	font-size: 100px;
+	color: #425ff4;
+}
