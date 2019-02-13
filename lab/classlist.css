@@ -1,5 +1,6 @@
 *{
   font-family:"futura",sans-serif;
+  background-color: #fce63f;
 }
 a:hover{
 	color:pink;
@@ -8,7 +9,7 @@ a{
 	color:#68c0ff;
   text-align: center;
 text-decoration: none;
-font-size: 30px;
+font-size: 15px;
 }
 h1{
 	font-size: 100px;
