@@ -1,0 +1,123 @@
+
+@keyframes moving{
+	0%{
+		transform:translate(-300px, 0); 
+	}
+
+	100%{
+		transform: translate(100vw, 0);
+	}
+}
+@keyframes walk{
+	0%{
+		transform: rotate(-5deg);
+	}
+	50%{
+		transform: rotate(5deg);
+	}
+	100%{
+		transform: rotate(-5deg);
+	}
+}
+
+@keyframes walktwo{
+		0%{
+		transform: rotate(5deg);
+	}
+	50%{
+		transform: rotate(-5deg);
+	}
+	100%{
+		transform: rotate(5deg);
+	}
+}
+@keyframes timeOfDay{
+	0%{
+		background-color: #1f303a;
+	}
+	10%{
+		background-color: #2f546b;
+	}
+
+	50%{
+		background-color: #ebf77e;
+	}
+	70%{
+		background-color: #d3a602;
+	}
+	80%{
+		background-color: #4b678c;
+
+	}
+	90%{
+		background-color: #1f303a;
+	}
+	100%{
+		background-color: #1f303a;
+	}
+}
+html{
+	background-color: lightblue;
+	margin: 0px;
+	animation-name: timeOfDay;
+	animation-duration: 30s;
+	animation-iteration-count: infinite;
+	animation-fill-mode: forwards;
+
+}
+#ground{
+	width: 100vw;
+	height: 10px;
+	background-color: #a0a7aa;
+}
+#wrapper{
+	position: relative;
+	height: 350px;
+	width:100px;
+	animation-name: moving;
+	animation-duration: 10s;
+	animation-fill-mode: forwards;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-out;
+}
+#head{
+	width: 100px;
+	height: 100px;
+	background-color: #eafc49;
+	border-radius: 50px;
+}
+#body{
+	height: 100px;
+	width: 100px;
+	background-color: black;
+	border-top-left-radius: 40px;
+	border-top-right-radius:40px;
+}
+.legs {
+	height:150px;
+	width:50px;
+	background-color:#075d7f;
+	display: inline-block;
+	position: relative;
+}
+#legone{
+		background-color: #024863;
+	animation-name: walktwo;
+	animation-duration: .5s;
+	animation-iteration-count: infinite;
+}
+#legtwo{
+	animation-name: walk;
+	animation-duration: .5s;
+	animation-iteration-count: infinite;
+}
+.foot{
+	position: absolute;
+	left:10px;
+	bottom: 0px;
+	width:50px;
+	height:30px;
+	background-color: black;
+	border-top-right-radius: 20px;
+	border-top-left-radius: 20px;
+}
