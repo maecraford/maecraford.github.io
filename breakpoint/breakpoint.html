@@ -5,6 +5,7 @@
 <style>
 * {
   box-sizing: border-box;
+  margin: 0px;
 }
 
 .row::after {
@@ -88,7 +89,6 @@ html {
   }
 }
 div.yeehaw {
-  background-color: beige;
   color:hotpink;
   height: 200px;
   width:100%;
@@ -99,8 +99,23 @@ div.yeehaw {
   margin-top: 250px;
 }
 
-@media screen and (max-width: 600px) {
+div.cowboy {
+	background-color: #fcf95d;
+	color:#f92f2f;
+	height: 10000px;
+	width: 100%;
+	margin:0px;
+	font-size: 80px;
+	text-align: center;
+	padding-top: 250px;
+}
+@media screen and (max-width:800px) {
   div.yeehaw {
+    display: none;
+  }
+}
+@media screen and (min-width: 800px) {
+  div.cowboy {
     display: none;
   }
 }
@@ -109,11 +124,16 @@ div.yeehaw {
     display: none;
   }
 }
+@media screen and (max-width: 600px) {
+  div.cowboy {
+    display: none;
+  }
+}
 
 div.howdy {
 	color: darkblue;
 	font-size: 50px;
-margin-top: 200px;
+margin-top: 250px;
 margin-left: 200px;
 }
 </style>
@@ -123,8 +143,10 @@ margin-left: 200px;
 	HOWDY
 </div>
 <div class="yeehaw">YEEHAW</div>
-  <div class="col-6">
-  </div>
+
+ <div class="cowboy">
+ 	ride 'em cowboy
+ </div>
 
 </body>
 </html>
