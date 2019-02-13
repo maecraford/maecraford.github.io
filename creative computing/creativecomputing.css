@@ -1,0 +1,9 @@
+*{
+	font-family: futura;
+}
+a:hover{
+	color:pink;
+}
+a:active{
+	color:lightgreen;
+}
