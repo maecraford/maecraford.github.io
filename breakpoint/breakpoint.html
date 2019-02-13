@@ -83,7 +83,7 @@ html {
     width: 100%;
   }
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
   body {
     background-color: lightblue;
   }
@@ -102,29 +102,29 @@ div.yeehaw {
 div.cowboy {
 	background-color: #fcf95d;
 	color:#f92f2f;
-	height: 10000px;
+	height: 800px;
 	width: 100%;
 	margin:0px;
 	font-size: 80px;
 	text-align: center;
 	padding-top: 250px;
 }
-@media screen and (max-width:800px) {
+@media screen and (max-width:900px) {
   div.yeehaw {
     display: none;
   }
 }
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 900px) {
   div.cowboy {
     display: none;
   }
 }
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 700px) {
   div.howdy {
     display: none;
   }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
   div.cowboy {
     display: none;
   }
@@ -134,11 +134,19 @@ div.howdy {
 	color: darkblue;
 	font-size: 50px;
 margin-top: 250px;
-margin-left: 200px;
+text-align: center;
+}
+#follower {
+  height: 50px;
+  width: 50px;
+  position:absolute;
 }
 </style>
 </head>
 <body>
+	<div id="follower">
+<img src="cowboyhat.jpg">
+</div>
 <div class="howdy">
 	HOWDY
 </div>
@@ -147,6 +155,6 @@ margin-left: 200px;
  <div class="cowboy">
  	ride 'em cowboy
  </div>
-
+  <script src="breakpoint.js"></script>
 </body>
 </html>
