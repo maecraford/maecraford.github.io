@@ -1,0 +1,76 @@
+h1 {
+  color:pink;
+  font-family:"futura",sans-serif;
+  font-size: 100px;
+  text-align: center;
+}
+
+h2{
+  font-size: 20px;
+  font-family: sans-serif;
+}
+#first {
+    line-height: 40px;
+}
+
+div.studio{
+	color:#fce63f;
+text-align: center;
+margin:20px;
+font-family: "futura",sans-serif;
+  font-size: 30px;
+}
+div.lab{
+	color:#fce63f;
+  text-align: center;
+  margin:20px;
+  font-family: "futura",sans-serif;
+    font-size: 30px;
+}
+div.creativecomputing{
+	color:#fce63f;
+  text-align: center;
+  margin:20px;
+  font-family: "futura",sans-serif;
+  font-size: 30px;
+}
+div.home{
+  color:#fce63f;
+  text-align: center;
+  margin-left: 10px;
+  margin-top: 20px;
+  font-family: "futura",sans-serif;
+  font-size: 20px;
+  height: 20px;
+  width: 100%;
+  text-align: left;
+  font-size: 20px;
+}
+
+a:hover{
+	color:pink;
+}
+a{
+	color:#fce63f;
+  text-align: center;
+text-decoration: none;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media only screen and (max-width: 768px) {
+  [class*="col-"] {
+    width: 100%;
+  }
+}
