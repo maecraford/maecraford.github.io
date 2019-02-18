@@ -22,11 +22,12 @@ h2{
   text-align: center;
 }
 #class {
-  color:#2c933b;
+  color:white;
   float: left;
   width: 50%;
-  height: 200px;
+  height: 300px;
   font-size: 30px;
+  margin-top: 100px;
 }
 #portfolio {
   color:#2c933b;
@@ -43,7 +44,7 @@ a:hover{
 	color:pink;
 }
 a{
-	color:#2c933b;
+	color:white;
   text-align: center;
 text-decoration: none;
 }
