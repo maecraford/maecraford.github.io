@@ -37,33 +37,52 @@ console.log(myNumber)
 
 //getting a div via its id:
 var myDiv = document.getElementById("wrapper");
+var colorDiv = document.getElementById("colorDiv");
 
 //function
 var myFunction = function() {
 
-	//myNumber = myNumber + 5;
-	//letterSpacingValue = letterSpacingValue + 1;
+	myNumber = myNumber + 5;
+	letterSpacingValue = letterSpacingValue + 1;
 
 	if (myBoolean == true) {		
 		myBoolean=false;
 
 		myNumber = myNumber + 10;
-		//myDiv.style.fontSize = myNumber + "px";
+		myDiv.style.fontSize = myNumber + "px";
 
 	} else{
 		myBoolean = true;
-		//myDiv.style.letterSpacing = letterSpacingValue + "px"
+		myDiv.style.letterSpacing = letterSpacingValue + "px"
 		myNumber = myNumber - 8;
 	}
 	myDiv.style.fontSize = myNumber + "px"
 }
-console.log(myNumber)
-myDiv.onclick = myFunction;
 
+var anotherFunction = function(){
+	if (myNumber >= 40){
+		//keep growing
+		myNumber = myNumber + 2;
+	}else{
+		//reset at small value
+		myNumber = 20;
+	}
+myDiv.style.fontSize = myNumber + "px";
+myDiv.onclick = anotherFunction;
+}
+
+var classFunction = function(){
+//console.log("function")
+colorDiv.classFunction.add("text-color")
+}
+
+myDiv.onclick = anotherFunction;
+colorDiv.onclick = classFunction;
 //onmouse
 //onmouseover
 //onmousemove
 //onclick
+//onmouseout
 
 
 
