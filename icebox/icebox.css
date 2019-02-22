@@ -1,0 +1,135 @@
+#I{
+	font-family: "Times New Roman",serif; 
+	font-size: 20px;
+	padding-top: 5px;
+	width: 80px;
+	height: 30px;
+	color:black;
+	text-align: center;
+	background-color: white;
+	border-style: outset;
+	border-width: 1px;
+	border-color: black;
+	position: fixed;
+	bottom: 400px;
+	left: 250px;
+
+
+}
+#love{
+	font-family: "Times New Roman",serif; 
+	font-size: 20px;
+	padding-top: 5px;
+	width: 80px;
+	height: 30px;
+	color:black;
+	text-align: center;
+	background-color: white;
+	border-style: outset;
+	border-width: 1px;
+	border-color: black;
+	position: absolute;
+  	cursor: move;
+  	z-index: 10;
+}
+#you{
+	font-family: "Times New Roman",serif; 
+	font-size: 20px;
+	padding-top: 5px;
+	width: 80px;
+	height: 30px;
+	color:black;
+	text-align: center;
+	background-color: white;
+	border-style: outset;
+	border-width: 1px;
+	border-color: black;
+	position: fixed;
+	bottom: 300px;
+	left:270px;
+}
+#hate{
+	font-family: "Times New Roman",serif; 
+	font-size: 20px;
+	padding-top: 5px;
+	width: 80px;
+	height: 30px;
+	color:black;
+	text-align: center;
+	background-color: white;
+	border-style: outset;
+	border-width: 1px;
+	border-color: black;
+
+}
+#nature{
+	font-family: "Times New Roman",serif; 
+	font-size: 20px;
+	padding-top: 5px;
+	width: 80px;
+	height: 30px;
+	color:black;
+	text-align: center;
+	background-color: white;
+	border-style: outset;
+	border-width: 1px;
+	border-color: black;
+}
+#cats{
+	font-family: "Times New Roman",serif; 
+	font-size: 20px;
+	padding-top: 5px;
+	width: 80px;
+	height: 30px;
+	color:black;
+	text-align: center;
+	background-color: white;
+	border-style: outset;
+	border-width: 1px;
+	border-color: black;
+}
+#dogs{
+	font-family: "Times New Roman",serif; 
+	font-size: 20px;
+	padding-top: 5px;
+	width: 80px;
+	height: 30px;
+	color:black;
+	text-align: center;
+	background-color: white;
+	border-style: outset;
+	border-width: 1px;
+	border-color: black;
+}
+#period{
+	font-family: "Times New Roman",serif; 
+	font-size: 20px;
+	padding-top: 5px;
+	width: 80px;
+	height: 30px;
+	color:black;
+	text-align: center;
+	background-color: white;
+	border-style: outset;
+	border-width: 1px;
+	border-color: black;
+	position: fixed;
+	bottom: 400px;
+	right: 400px
+}
+#per{
+	font-family: "Times New Roman",serif; 
+	font-size: 20px;
+	padding-top: 5px;
+	width: 80px;
+	height: 30px;
+	color:black;
+	text-align: center;
+	background-color: white;
+	border-style: outset;
+	border-width: 1px;
+	border-color: black;
+	position: fixed;
+	bottom: 300px;
+	right: 400px
+}
