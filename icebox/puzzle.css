@@ -1,52 +1,109 @@
 #piece{
-		position: absolute;
+	font-family: "Times New Roman",serif; 
+	font-size: 30px;
+	position: absolute;
   	cursor: move;
   	z-index: 10;
 }
 #piece2{
-	width: 20px;
-	height: 200px;
-	background-color: pink;
+font-family: "Times New Roman",serif; 
+	font-size: 30px;
 		position: absolute;
   	cursor: move;
   	z-index: 10;
 }
 #piece3{
-	width: 80px;
-	height: 80px;
-	border-radius: 80px;
-	background-color: yellow;
+font-family: "Times New Roman",serif; 
+	font-size: 30px;
 	position: absolute;
   	cursor: move;
   	z-index: 10;
 }
 #piece4{
-	width: 90px;
-	height: 150px;
-	background-color: blue;
+font-family: "Times New Roman",serif; 
+	font-size: 30px;
 		position: absolute;
   	cursor: move;
   	z-index: 10;
 }
 #piece5{
-	width: 15px;
-	height: 150px;
-	background-color: blue;
+font-family: "Times New Roman",serif; 
+	font-size: 30px;
 		position: absolute;
   	cursor: move;
   	z-index: 10;
-  			  -ms-transform: rotate(10deg); /* IE 9 */
-  -webkit-transform: rotate(10deg); /* Safari */
-  transform: rotate(10deg);
 }
 #piece6{
-	width: 15px;
-	height: 150px;
-	background-color: blue;
+font-family: "Times New Roman",serif; 
+	font-size: 30px;
 		position: absolute;
   	cursor: move;
   	z-index: 10;
-  			  -ms-transform: rotate(-10deg); /* IE 9 */
-  -webkit-transform: rotate(-10deg); /* Safari */
-  transform: rotate(-10deg);
 }
+#piece7{
+font-family: "Times New Roman",serif; 
+	font-size: 30px;
+		position: absolute;
+  	cursor: move;
+  	z-index: 10;
+}
+#piece8{
+font-family: "Times New Roman",serif; 
+	font-size: 30px;
+		position: absolute;
+  	cursor: move;
+  	z-index: 10;
+}
+#piece9{
+font-family: "Times New Roman",serif; 
+	font-size: 30px;
+		position: absolute;
+  	cursor: move;
+  	z-index: 10;
+}
+#piece10{
+font-family: "Times New Roman",serif; 
+	font-size: 30px;
+		position: absolute;
+  	cursor: move;
+  	z-index: 10;
+}
+#piece11{
+font-family: "Times New Roman",serif; 
+	font-size: 30px;
+		position: absolute;
+  	cursor: move;
+  	z-index: 10;
+}
+
+#piece12{
+font-family: "Times New Roman",serif; 
+	font-size: 30px;
+		position: absolute;
+  	cursor: move;
+  	z-index: 10;
+}
+#piece13{
+font-family: "Times New Roman",serif; 
+	font-size: 30px;
+		position: absolute;
+  	cursor: move;
+  	z-index: 10;
+}
+
+#piece14{
+font-family: "Times New Roman",serif; 
+	font-size: 30px;
+		position: absolute;
+  	cursor: move;
+  	z-index: 10;
+}
+
+
+
+
+
+
+
+
+
