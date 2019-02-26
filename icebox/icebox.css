@@ -1,20 +1,21 @@
 #I{
 	font-family: "Times New Roman",serif; 
-	font-size: 20px;
+	font-size: 30px;
 	padding-top: 5px;
-	width: 80px;
-	height: 30px;
+	width: 100px;
+	height: 40px;
 	color:black;
 	text-align: center;
 	background-color: white;
 	border-style: outset;
 	border-width: 1px;
 	border-color: black;
-	position: fixed;
-	bottom: 400px;
-	left: 250px;
-
-
+	position: absolute;
+	left: 40%;
+	top: 50px;
+		  -ms-transform: rotate(-5deg); /* IE 9 */
+  -webkit-transform: rotate(-5deg); /* Safari */
+  transform: rotate(-5deg);
 }
 #love{
 	font-family: "Times New Roman",serif; 
@@ -34,102 +35,39 @@
 }
 #you{
 	font-family: "Times New Roman",serif; 
-	font-size: 20px;
+	font-size: 30px;
 	padding-top: 5px;
-	width: 80px;
-	height: 30px;
+	width: 100px;
+	height: 40px;
 	color:black;
 	text-align: center;
 	background-color: white;
 	border-style: outset;
 	border-width: 1px;
 	border-color: black;
-	position: fixed;
-	bottom: 300px;
-	left:270px;
+	position: absolute;
+	left: 50%;
+	top:50px;
+	  -ms-transform: rotate(10deg); /* IE 9 */
+  -webkit-transform: rotate(10deg); /* Safari */
+  transform: rotate(10deg);
 }
-#hate{
-	font-family: "Times New Roman",serif; 
-	font-size: 20px;
-	padding-top: 5px;
-	width: 80px;
-	height: 30px;
-	color:black;
-	text-align: center;
-	background-color: white;
-	border-style: outset;
-	border-width: 1px;
-	border-color: black;
 
-}
-#nature{
-	font-family: "Times New Roman",serif; 
-	font-size: 20px;
-	padding-top: 5px;
-	width: 80px;
-	height: 30px;
-	color:black;
-	text-align: center;
-	background-color: white;
-	border-style: outset;
-	border-width: 1px;
-	border-color: black;
-}
-#cats{
-	font-family: "Times New Roman",serif; 
-	font-size: 20px;
-	padding-top: 5px;
-	width: 80px;
-	height: 30px;
-	color:black;
-	text-align: center;
-	background-color: white;
-	border-style: outset;
-	border-width: 1px;
-	border-color: black;
-}
-#dogs{
-	font-family: "Times New Roman",serif; 
-	font-size: 20px;
-	padding-top: 5px;
-	width: 80px;
-	height: 30px;
-	color:black;
-	text-align: center;
-	background-color: white;
-	border-style: outset;
-	border-width: 1px;
-	border-color: black;
-}
-#period{
-	font-family: "Times New Roman",serif; 
-	font-size: 20px;
-	padding-top: 5px;
-	width: 80px;
-	height: 30px;
-	color:black;
-	text-align: center;
-	background-color: white;
-	border-style: outset;
-	border-width: 1px;
-	border-color: black;
-	position: fixed;
-	bottom: 400px;
-	right: 400px
-}
-#per{
-	font-family: "Times New Roman",serif; 
-	font-size: 20px;
-	padding-top: 5px;
-	width: 80px;
-	height: 30px;
-	color:black;
-	text-align: center;
-	background-color: white;
-	border-style: outset;
-	border-width: 1px;
-	border-color: black;
-	position: fixed;
-	bottom: 300px;
-	right: 400px
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media only screen and (max-width: 768px) {
+  [class*="col-"] {
+    width: 100%;
+  }
 }
