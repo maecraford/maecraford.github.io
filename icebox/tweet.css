@@ -1,0 +1,12 @@
+#piece{
+	font-family: "helvetica",sans-serif; 
+	font-size: 30px;
+	position: absolute;
+  	cursor: move;
+  	z-index: 10;
+}
+#twitter{
+	position: fixed;
+	left: 50%
+	top: 50%;
+}

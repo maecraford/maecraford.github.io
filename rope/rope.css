@@ -1,0 +1,11 @@
+*{
+	margin: 0px;
+}
+#rope{
+position: fixed;
+border-style:solid;
+border-color: black;
+border-width:1px;
+background-color: black;
+margin:0px;
+}
