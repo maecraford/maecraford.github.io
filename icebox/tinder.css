@@ -1,5 +1,5 @@
 body{
-	background-color: #58cbf4;
+	background-color: #ff655b;
 }
 #piece{
 	font-family: "helvetica",sans-serif; 
@@ -11,15 +11,15 @@ body{
   	z-index: 10;
   	color: black;
 }
-#twitter{
+#tinder{
 	position: fixed;
-	width: 800px;
-	height: 200px;
+	width: 350px;
+	height: 250px;
 	background-color: white;
 	color: black;
-	border-radius: 40px;
-	left:20%;
-	top: 100px;
+	border-radius: 20px;
+	left:35%;
+	top: 200px;
 }
 #piece2{
 	font-family: "helvetica",sans-serif; 
@@ -35,8 +35,8 @@ body{
 	font-family: "helvetica",sans-serif; 
 	font-size: 30px;
 	position: fixed;
-	top:315px;
-	left: 45%;
+	top:635px;
+	left: 35%;
   	cursor: move;
   	z-index: 10;
   	color: black;
@@ -46,7 +46,7 @@ body{
 	font-size: 30px;
 	position: fixed;
 	top:400px;
-	left: 30%;
+	left: 25%;
   	cursor: move;
   	z-index: 10;
   	color: black;
@@ -56,8 +56,8 @@ body{
 	font-family: "helvetica",sans-serif; 
 	font-size: 30px;
 	position: fixed;
-	top:400px;
-	left: 50%;
+	top:200px;
+	left: 70%;
   	cursor: move;
   	z-index: 10;
   	color: black;
@@ -67,7 +67,7 @@ body{
 	font-family: "helvetica",sans-serif; 
 	font-size: 30px;
 	position: fixed;
-	top:400px;
+	top:580px;
 	left: 60%;
   	cursor: move;
   	z-index: 10;
@@ -78,7 +78,7 @@ body{
 	font-family: "helvetica",sans-serif; 
 	font-size: 30px;
 	position: fixed;
-	top:450px;
+	top:50px;
 	left: 45%;
   	cursor: move;
   	z-index: 10;
@@ -90,7 +90,7 @@ body{
 	font-family: "helvetica",sans-serif; 
 	font-size: 30px;
 	position: fixed;
-	top:450px;
+	top:20px;
 	left: 38%;
   	cursor: move;
   	z-index: 10;
@@ -124,8 +124,8 @@ body{
 	font-family: "helvetica",sans-serif; 
 	font-size: 30px;
 	position: fixed;
-	top:400px;
-	left: 38%;
+	top:200px;
+	left: 28%;
   	cursor: move;
   	z-index: 10;
   	color: black;
@@ -333,7 +333,7 @@ body{
 	font-size: 30px;
 	position: fixed;
 	top:340px;
-	left: 60%;
+	left: 80%;
   	cursor: move;
   	z-index: 10;
   	color: black;
@@ -453,8 +453,8 @@ body{
 	font-family: "helvetica",sans-serif; 
 	font-size: 30px;
 	position: fixed;
-	top:330px;
-	left: 29%;
+	top:110px;
+	left: 43%;
   	cursor: move;
   	z-index: 10;
   	color: black;
@@ -463,8 +463,8 @@ body{
 	font-family: "helvetica",sans-serif; 
 	font-size: 30px;
 	position: fixed;
-	top:300px;
-	left: 15%;
+	top:100px;
+	left: 55%;
   	cursor: move;
   	z-index: 10;
   	color: black;

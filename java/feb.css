@@ -1,0 +1,41 @@
+.piece{
+	font-size: 50px;
+	color: blue;
+	position: absolute;
+  	cursor: move;
+  	z-index: 10;
+}
+
+#myElement {
+
+		position: absolute;
+  	cursor: move;
+  	z-index: 10;
+}
+#myDiv {
+
+		position: absolute;
+  	cursor: move;
+  	z-index: 10;
+}
+
+#button{
+	width: 100px;
+	height: 30px;
+	background-color: pink;
+	position: fixed;
+	top: 90px;
+	left: 500px;
+	text-align: center;
+	padding-top: 5px;
+	color: white;
+	font-family: "helvetica", sans-serif;
+	font-size:20px;
+}
+#box{
+	width: 500px;
+	height: 500px;
+	background-color: black;
+	position:fixed;
+	top: 150px;
+}

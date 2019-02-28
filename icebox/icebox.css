@@ -1,56 +1,82 @@
-#I{
+body{
+background-color: #fffafa;
+background-image: url("https://www.transparenttextures.com/patterns/egg-shell.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+#piece{
 	font-family: "Times New Roman",serif; 
 	font-size: 30px;
-	padding-top: 5px;
-	width: 100px;
-	height: 40px;
-	color:black;
 	text-align: center;
-	background-color: white;
-	border-style: outset;
-	border-width: 1px;
-	border-color: black;
-	position: absolute;
-	left: 40%;
-	top: 50px;
-		  -ms-transform: rotate(-5deg); /* IE 9 */
-  -webkit-transform: rotate(-5deg); /* Safari */
-  transform: rotate(-5deg);
-}
-#love{
-	font-family: "Times New Roman",serif; 
-	font-size: 20px;
-	padding-top: 5px;
-	width: 80px;
-	height: 30px;
-	color:black;
-	text-align: center;
-	background-color: white;
-	border-style: outset;
-	border-width: 1px;
-	border-color: black;
-	position: absolute;
+	position: fixed;
+	top: 500px;
+	left: 20%;
   	cursor: move;
   	z-index: 10;
+  	width: 100px;
+  	height: 50px;
+  	background-color: white;
+  	border-style: solid;
+  	border-color: black;
+  	border-width: 1px;
+  	padding-top: 5px;
 }
-#you{
+#piece2{
 	font-family: "Times New Roman",serif; 
 	font-size: 30px;
-	padding-top: 5px;
-	width: 100px;
-	height: 40px;
-	color:black;
 	text-align: center;
-	background-color: white;
-	border-style: outset;
-	border-width: 1px;
-	border-color: black;
 	position: absolute;
-	left: 50%;
+  	cursor: move;
+  	top:50px;
+	left: 35%;
+  	z-index: 10;
+  	width: 100px;
+  	height: 50px;
+  	background-color: white;
+  	border-style: solid;
+  	border-color: black;
+  	border-width: 1px;
+  	padding-top: 5px;
+}
+#piece3{
+	font-family: "Times New Roman",serif; 
+	font-size: 30px;
+	text-align: center;
+	position: fixed;
 	top:50px;
-	  -ms-transform: rotate(10deg); /* IE 9 */
-  -webkit-transform: rotate(10deg); /* Safari */
-  transform: rotate(10deg);
+	left: 55%;
+  	cursor: move;
+  	z-index: 10;
+  	width: 100px;
+  	height: 50px;
+  	background-color: white;
+  	border-style: solid;
+  	border-color: black;
+  	border-width: 1px;
+  	padding-top: 5px;
+}
+#piece4{
+	font-family: "helvetica",sans-serif; 
+	font-size: 20px;
+	text-align: center;
+	position: fixed;
+	top: 500px;
+	left: 50%;
+  	cursor: move;
+  	z-index: 10;
+  	width: 100px;
+  	height: 40px;
+  	background-color: #58cbf4;
+  	padding-top: 10px;
+  	color: white;
+}
+a:hover{
+	color:black;
+}
+a{
+	color:black;
+  text-align: center;
+text-decoration: none;
+font-size: 25px;
 }
 
 .col-1 {width: 8.33%;}
