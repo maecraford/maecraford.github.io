@@ -68,6 +68,27 @@ background-image: url("https://www.transparenttextures.com/patterns/egg-shell.pn
   	background-color: #58cbf4;
   	padding-top: 10px;
   	color: white;
+  	 	border-style: solid;
+  	border-color: black;
+  	border-width: 1px;
+}
+#piece5{
+	font-family: "helvetica",sans-serif; 
+	font-size: 20px;
+	text-align: center;
+	position: fixed;
+	top: 200px;
+	left: 80%;
+  	cursor: move;
+  	z-index: 10;
+  	width: 100px;
+  	height: 40px;
+  	background-color: #ff655b;
+  	padding-top: 10px;
+  	color: white;
+  	border-style: solid;
+  	border-color: black;
+  	border-width: 1px;
 }
 a:hover{
 	color:black;
