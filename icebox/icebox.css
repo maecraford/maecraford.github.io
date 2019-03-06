@@ -21,7 +21,7 @@ background-image: url("https://www.transparenttextures.com/patterns/egg-shell.pn
   	padding-top: 5px;
 }
 #piece2{
-	font-family: "Times New Roman",serif; 
+	font-family: "Helvetica",sans-serif; 
 	font-size: 30px;
 	text-align: center;
 	position: absolute;
@@ -31,14 +31,12 @@ background-image: url("https://www.transparenttextures.com/patterns/egg-shell.pn
   	z-index: 10;
   	width: 100px;
   	height: 50px;
-  	background-color: white;
-  	border-style: solid;
-  	border-color: black;
-  	border-width: 1px;
-  	padding-top: 5px;
+  	background-color: #84e4ff;
+  	padding-top: 10px;
+    color: white;
 }
 #piece3{
-	font-family: "Times New Roman",serif; 
+	font-family: "Helvetica",sans-serif; 
 	font-size: 30px;
 	text-align: center;
 	position: fixed;
@@ -48,11 +46,9 @@ background-image: url("https://www.transparenttextures.com/patterns/egg-shell.pn
   	z-index: 10;
   	width: 100px;
   	height: 50px;
-  	background-color: white;
-  	border-style: solid;
-  	border-color: black;
-  	border-width: 1px;
-  	padding-top: 5px;
+  	background-color: #84e4ff;
+  	padding-top: 10px;
+    color: white;
 }
 #piece4{
 	font-family: "helvetica",sans-serif; 

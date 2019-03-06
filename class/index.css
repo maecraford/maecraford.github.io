@@ -22,6 +22,9 @@ ol{
 	background-color: black;
 	color: white;
 	padding:10px;
+	cursor: pointer;
+	width: 100px;
+	height: 200px;
 
 }
 
