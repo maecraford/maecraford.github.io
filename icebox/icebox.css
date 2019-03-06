@@ -86,6 +86,14 @@ background-image: url("https://www.transparenttextures.com/patterns/egg-shell.pn
   	border-color: black;
   	border-width: 1px;
 }
+#piece6{
+ 
+  position: fixed;
+  top:30px;
+  left: 20%;
+    cursor: move;
+    z-index: 10;
+}
 a:hover{
 	color:black;
 }
