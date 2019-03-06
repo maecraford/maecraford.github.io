@@ -2,29 +2,29 @@
 #button {
 	display: inline-block;
 	position: fixed;
-	top:200px;
+	top:100px;
 	left: 50%;
 	background-color: black;
 	color: white;
 	padding:10px;
 	cursor: pointer;
-	width: 300px;
-	height: 200px;
+	width: 100px;
+	height: 50px;
 	font-family: "Helvetica", sans-serif;
 	font-style: italic;
-	font-size: 80px;
+	font-size: 25px;
 
 }
 
 #hat{
-	width: 500px;
-	height: 50px;
+	width: 200px;
+	height: 25px;
 	position: fixed;
-	top:400px;
-	left:48%;
+	top:170px;
+	left:47%;
 	background-color: black;
 }
 
 img{
-	width:500px;
+	width:200px;
 }
