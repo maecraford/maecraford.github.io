@@ -3,11 +3,6 @@ background-color: #fffafa;
 background-image: url("https://www.transparenttextures.com/patterns/egg-shell.png");
 /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 }
-#title{
-  position: fixed;
-  top:5px;
-  left: 30%
-}
 #piece{
 	font-family: "Times New Roman",serif; 
 	font-size: 30px;
@@ -17,41 +12,12 @@ background-image: url("https://www.transparenttextures.com/patterns/egg-shell.pn
 	left: 20%;
   	cursor: move;
   	z-index: 10;
-  	width: 100px;
+  	width: 250px;
   	height: 50px;
-  	background-color: white;
+  	background-color: lightpink;
   	padding-top: 5px;
 }
-#piece2{
-	font-family: "Helvetica",sans-serif; 
-	font-size: 30px;
-	text-align: center;
-	position: absolute;
-  	cursor: move;
-  	top:50px;
-	left: 35%;
-  	z-index: 10;
-  	width: 100px;
-  	height: 50px;
-  	background-color: #84e4ff;
-  	padding-top: 10px;
-    color: white;
-}
-#piece3{
-	font-family: "Helvetica",sans-serif; 
-	font-size: 30px;
-	text-align: center;
-	position: fixed;
-	top:50px;
-	left: 55%;
-  	cursor: move;
-  	z-index: 10;
-  	width: 100px;
-  	height: 50px;
-  	background-color: #84e4ff;
-  	padding-top: 10px;
-    color: white;
-}
+
 #piece4{
 	font-family: "helvetica",sans-serif; 
 	font-size: 20px;
@@ -61,12 +27,13 @@ background-image: url("https://www.transparenttextures.com/patterns/egg-shell.pn
 	left: 50%;
   	cursor: move;
   	z-index: 10;
-  	width: 100px;
+  	width: 200px;
   	height: 40px;
   	background-color: #58cbf4;
   	padding-top: 10px;
   	color: white;
 }
+
 #piece5{
 	font-family: "nunito",sans-serif; 
 	font-size: 20px;
@@ -77,11 +44,12 @@ background-image: url("https://www.transparenttextures.com/patterns/egg-shell.pn
   	cursor: move;
   	z-index: 10;
   	width: 200px;
-  	height: 50px;
+  	height: 40px;
   	background-color: #ff655b;
   	padding-top: 10px;
   	color: white;
 }
+
 #piece6{
  
   position: fixed;
@@ -93,7 +61,7 @@ background-image: url("https://www.transparenttextures.com/patterns/egg-shell.pn
 #piece7{
  
   position: fixed;
-  top:100px;
+  top:180px;
   left: 10%;
     cursor: move;
     z-index: 10;

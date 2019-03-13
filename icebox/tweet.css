@@ -35,8 +35,8 @@ body{
 	font-family: "helvetica",sans-serif; 
 	font-size: 30px;
 	position: fixed;
-	top:315px;
-	left: 45%;
+	top:115px;
+	left: 22%;
   	cursor: move;
   	z-index: 10;
   	color: black;
