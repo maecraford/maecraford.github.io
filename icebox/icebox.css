@@ -3,6 +3,11 @@ background-color: #fffafa;
 background-image: url("https://www.transparenttextures.com/patterns/egg-shell.png");
 /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 }
+#title{
+  position: fixed;
+  top:5px;
+  left: 30%
+}
 #piece{
 	font-family: "Times New Roman",serif; 
 	font-size: 30px;
@@ -63,16 +68,16 @@ background-image: url("https://www.transparenttextures.com/patterns/egg-shell.pn
   	color: white;
 }
 #piece5{
-	font-family: "helvetica",sans-serif; 
+	font-family: "nunito",sans-serif; 
 	font-size: 20px;
 	text-align: center;
 	position: fixed;
-	top: 200px;
-	left: 80%;
+	top: 100px;
+	left: 60%;
   	cursor: move;
   	z-index: 10;
-  	width: 100px;
-  	height: 40px;
+  	width: 200px;
+  	height: 50px;
   	background-color: #ff655b;
   	padding-top: 10px;
   	color: white;
@@ -97,20 +102,20 @@ background-image: url("https://www.transparenttextures.com/patterns/egg-shell.pn
  
   position: fixed;
   top:200px;
-  left: 60%;
+  left: 40%;
     cursor: move;
     z-index: 10;
 }
 #piece9{
  
   position: fixed;
-  top:100px;
-  left: 50%;
+  top:400px;
+  left: 70%;
     cursor: move;
     z-index: 10;
 }
 a:hover{
-	color:black;
+	color:white;
 }
 a{
 	color:black;
