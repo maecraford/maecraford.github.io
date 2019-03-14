@@ -56,16 +56,16 @@ background-image: url("https://www.transparenttextures.com/patterns/egg-shell.pn
 #piece6{
  
   position: fixed;
-  top:30px;
-  left: 20%;
+  top:45px;
+  left: 15%;
     cursor: move;
     z-index: 10;
 }
 #piece7{
  
   position: fixed;
-  top:180px;
-  left: 10%;
+  top:200px;
+  left: 2%;
     cursor: move;
     z-index: 10;
 }
@@ -168,8 +168,30 @@ background-image: url("https://www.transparenttextures.com/patterns/egg-shell.pn
     cursor: move;
     z-index: 10;
 }
-
-
+#piece20{
+ 
+  position: fixed;
+  top:280px;
+  left: 85%;
+    cursor: move;
+    z-index: 10;
+}
+#piece21{
+ 
+  position: fixed;
+  top:220px;
+  left: 22%;
+    cursor: move;
+    z-index: 10;
+}
+#piece22{
+ 
+  position: fixed;
+  top:-45px;
+  left: 55%;
+    cursor: move;
+    z-index: 10;
+}
 a:hover{
 	color:white;
 }
