@@ -1,4 +1,13 @@
 
+#home{
+	font-family: "TimesNewRoman",serif;  
+	font-size: 30px;
+	position: fixed;
+	color: black;
+	top:1px;
+	left: 20px;
+}
+
 #piece{
 	font-family: "TimesNewRoman",serif;  
 	font-size: 30px;
@@ -156,8 +165,8 @@
 	font-family: "TimesNewRoman",serif;  
 	font-size: 30px;
 	position: fixed;
-	top: 20px;
-	left: 6%;
+	top: 40px;
+	left: 16%;
   	cursor: move;
   	z-index: 10;
   	color: black;
@@ -422,8 +431,8 @@
 	font-family: "TimesNewRoman",serif;  
 	font-size: 30px;
 	position: fixed;
-	top:20px;
-	left: 60%;
+	top:500px;
+	left: 40%;
   	cursor: move;
   	z-index: 10;
   	color: black;
@@ -432,8 +441,8 @@
 	font-family: "TimesNewRoman",serif;  
 	font-size: 30px;
 	position: fixed;
-	top:20px;
-	left: 80%;
+	top:500px;
+	left: 30%;
   	cursor: move;
   	z-index: 10;
   	color: black;
@@ -442,8 +451,8 @@
 	font-family: "TimesNewRoman",serif;  
 	font-size: 30px;
 	position: fixed;
-	top:110px;
-	left: 43%;
+	top:600px;
+	left: 83%;
   	cursor: move;
   	z-index: 10;
   	color: black;
@@ -452,9 +461,196 @@
 	font-family: "TimesNewRoman",serif; 
 	font-size: 30px;
 	position: fixed;
-	top:100px;
+	top:620px;
+	left: 5%;
+  	cursor: move;
+  	z-index: 10;
+  	color: black;
+}
+#piece45{
+	font-family: "TimesNewRoman",serif; 
+	font-size: 30px;
+	position: fixed;
+	top:300px;
 	left: 55%;
   	cursor: move;
   	z-index: 10;
   	color: black;
+}
+#piece46{
+	font-family: "TimesNewRoman",serif; 
+	font-size: 30px;
+	position: fixed;
+	top:310px;
+	left: 45%;
+  	cursor: move;
+  	z-index: 10;
+  	color: black;
+}
+#piece47{
+	font-family: "TimesNewRoman",serif; 
+	font-size: 30px;
+	position: fixed;
+	top:400px;
+	left:55%;
+  	cursor: move;
+  	z-index: 10;
+  	color: black;
+}
+#piece48{
+	font-family: "TimesNewRoman",serif; 
+	font-size: 30px;
+	position: fixed;
+	top:530px;
+	left: 65%;
+  	cursor: move;
+  	z-index: 10;
+  	color: black;
+}
+#piece49{
+	font-family: "TimesNewRoman",serif; 
+	font-size: 30px;
+	position: fixed;
+	top:640px;
+	left: 75%;
+  	cursor: move;
+  	z-index: 10;
+  	color: black;
+}
+#piece50{
+	font-family: "TimesNewRoman",serif; 
+	font-size: 30px;
+	position: fixed;
+	top:560px;
+	left: 85%;
+  	cursor: move;
+  	z-index: 10;
+  	color: black;
+}
+#piece51{
+	font-family: "TimesNewRoman",serif; 
+	font-size: 30px;
+	position: fixed;
+	top:520px;
+	left: 95%;
+  	cursor: move;
+  	z-index: 10;
+  	color: black;
+}
+#piece52{
+	font-family: "TimesNewRoman",serif; 
+	font-size: 30px;
+	position: fixed;
+	top:60px;
+	left: 85%;
+  	cursor: move;
+  	z-index: 10;
+  	color: black;
+}
+#piece53{
+	font-family: "TimesNewRoman",serif; 
+	font-size: 30px;
+	position: fixed;
+	top:300px;
+	left: 35%;
+  	cursor: move;
+  	z-index: 10;
+  	color: black;
+}
+#piece54{
+	font-family: "TimesNewRoman",serif; 
+	font-size: 30px;
+	position: fixed;
+	top:250px;
+	left: 25%;
+  	cursor: move;
+  	z-index: 10;
+  	color: black;
+}
+#piece55{
+	font-family: "TimesNewRoman",serif; 
+	font-size: 30px;
+	position: fixed;
+	top:300px;
+	left: 75%;
+  	cursor: move;
+  	z-index: 10;
+  	color: black;
+}
+#piece56{
+	font-family: "TimesNewRoman",serif; 
+	font-size: 30px;
+	position: fixed;
+	top:380px;
+	left: 3%;
+  	cursor: move;
+  	z-index: 10;
+  	color: black;
+}
+#piece57{
+	font-family: "TimesNewRoman",serif; 
+	font-size: 30px;
+	position: fixed;
+	top:640px;
+	left: 25%;
+  	cursor: move;
+  	z-index: 10;
+  	color: black;
+}
+#piece58{
+	font-family: "TimesNewRoman",serif; 
+	font-size: 30px;
+	position: fixed;
+	top:590px;
+	left: 20%;
+  	cursor: move;
+  	z-index: 10;
+  	color: black;
+}
+#piece59{
+	font-family: "TimesNewRoman",serif; 
+	font-size: 30px;
+	position: fixed;
+	top:650px;
+	left: 55%;
+  	cursor: move;
+  	z-index: 10;
+  	color: black;
+}
+#piece60{
+	font-family: "TimesNewRoman",serif; 
+	font-size: 30px;
+	position: fixed;
+	top:240px;
+	left: 55%;
+  	cursor: move;
+  	z-index: 10;
+  	color: black;
+}
+a:hover{
+	color:lightpink;
+}
+a{
+	color:black;
+  text-align: center;
+font-size: 20px;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media only screen and (max-width: 768px) {
+  [class*="col-"] {
+    width: 100%;
+  }
 }

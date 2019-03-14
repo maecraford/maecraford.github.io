@@ -44,7 +44,20 @@ dragElement(document.getElementById("piece43"));
 dragElement(document.getElementById("piece44"));
 dragElement(document.getElementById("piece45"));
 dragElement(document.getElementById("piece46"));
-
+dragElement(document.getElementById("piece47"));
+dragElement(document.getElementById("piece48"));
+dragElement(document.getElementById("piece49"));
+dragElement(document.getElementById("piece50"));
+dragElement(document.getElementById("piece51"));
+dragElement(document.getElementById("piece52"));
+dragElement(document.getElementById("piece53"));
+dragElement(document.getElementById("piece54"));
+dragElement(document.getElementById("piece55"));
+dragElement(document.getElementById("piece56"));
+dragElement(document.getElementById("piece57"));
+dragElement(document.getElementById("piece58"));
+dragElement(document.getElementById("piece59"));
+dragElement(document.getElementById("piece60"));
 function dragElement(elmnt) {
   var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
 
