@@ -8,7 +8,7 @@ background-image: url("https://www.transparenttextures.com/patterns/egg-shell.pn
 	font-size: 30px;
 	text-align: center;
 	position: fixed;
-	top: 500px;
+	top: 400px;
 	left: 20%;
   	cursor: move;
   	z-index: 10;
@@ -24,8 +24,8 @@ background-image: url("https://www.transparenttextures.com/patterns/egg-shell.pn
 	font-size: 20px;
 	text-align: center;
 	position: fixed;
-	top: 500px;
-	left: 50%;
+	top: 520px;
+	left: 54%;
   	cursor: move;
   	z-index: 10;
   	width: 200px;
@@ -88,19 +88,72 @@ background-image: url("https://www.transparenttextures.com/patterns/egg-shell.pn
 #piece10{
  
   position: fixed;
-  top:530px;
-  left: -1%;
+  top:460px;
+  left: 2%;
     cursor: move;
     z-index: 10;
 }
 #piece11{
  
   position: fixed;
-  top:530px;
-  left: 50%;
+  top:15px;
+  left: 84%;
+    cursor: move;
+    z-index: 10;
+
+}
+#piece12{
+ 
+  position: fixed;
+  top:600px;
+  left: 94%;
+    cursor: move;
+    z-index: 10;
+
+}
+#piece13{
+ 
+  position: fixed;
+  top:550px;
+  left: 38%;
+    cursor: move;
+    z-index: 10;
+
+}
+#piece14{
+ 
+  position: fixed;
+  top:2px;
+  left: 1%;
     cursor: move;
     z-index: 10;
 }
+#piece15{
+ 
+  position: fixed;
+  top:100px;
+  left: 80%;
+    cursor: move;
+    z-index: 10;
+}
+#piece16{
+ 
+  position: fixed;
+  top:30px;
+  left: 40%;
+    cursor: move;
+    z-index: 10;
+}
+#piece17{
+ 
+  position: fixed;
+  top:320px;
+  left: 40%;
+    cursor: move;
+    z-index: 10;
+}
+
+
 a:hover{
 	color:white;
 }
