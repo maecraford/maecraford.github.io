@@ -41,8 +41,8 @@ background-image: url("https://www.transparenttextures.com/patterns/egg-shell.pn
 	font-size: 20px;
 	text-align: center;
 	position: fixed;
-	top: 100px;
-	left: 60%;
+	top: 90px;
+	left: 54%;
   	cursor: move;
   	z-index: 10;
   	width: 200px;
@@ -73,14 +73,14 @@ background-image: url("https://www.transparenttextures.com/patterns/egg-shell.pn
  
   position: fixed;
   top:200px;
-  left: 40%;
+  left: 38%;
     cursor: move;
     z-index: 10;
 }
 #piece9{
  
   position: fixed;
-  top:400px;
+  top:430px;
   left: 70%;
     cursor: move;
     z-index: 10;
@@ -149,6 +149,14 @@ background-image: url("https://www.transparenttextures.com/patterns/egg-shell.pn
   position: fixed;
   top:320px;
   left: 40%;
+    cursor: move;
+    z-index: 10;
+}
+#piece18{
+ 
+  position: fixed;
+  top:150px;
+  left: 64%;
     cursor: move;
     z-index: 10;
 }
