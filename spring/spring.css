@@ -1,0 +1,269 @@
+body{
+	background-color: #87c681
+}
+#one{
+	width: 150px;
+	height: 150px;
+	border-radius: 400px;
+	background-color: #f4f4cd;
+	position: fixed;
+	top: 200px;
+	left: 15%
+}
+#two{
+	width: 150px;
+	height: 150px;
+	border-radius: 400px;
+	background-color: #f4f4cd;
+	position: fixed;
+	top: 200px;
+	left: 45%
+}
+#three{
+	width: 150px;
+	height: 150px;
+	border-radius: 400px;
+	background-color: #f4f4cd;
+	position: fixed;
+	top: 200px;
+	left: 75%
+}
+#petal{
+	width: 50px;
+	height: 100px;
+	border-radius: 40px;
+	background-color: #cdf3f4;
+	position: fixed;
+	top: 90px;
+	left: 240px;
+}
+#petal2{
+	width: 50px;
+	height: 100px;
+	border-radius: 40px;
+	background-color: #cdf3f4;
+	position: fixed;
+	top: 130px;
+	left: 340px;
+	transform: rotate(45deg);
+}
+#petal3{
+	width: 50px;
+	height: 100px;
+	border-radius: 40px;
+	background-color: #cdf3f4;
+	position: fixed;
+	top: 220px;
+	left: 380px;
+	transform: rotate(80deg);
+}
+#petal4{
+	width: 50px;
+	height: 100px;
+	border-radius: 40px;
+	background-color: #cdf3f4;
+	position: fixed;
+	top: 320px;
+	left: 335px;
+	transform: rotate(130deg);
+}
+#petal5{
+	width: 50px;
+	height: 100px;
+	border-radius: 40px;
+	background-color: #cdf3f4;
+	position: fixed;
+	top: 360px;
+	left: 240px;
+	transform: rotate(180deg);
+}
+#petal6{
+	width: 50px;
+	height: 100px;
+	border-radius: 40px;
+	background-color: #cdf3f4;
+	position: fixed;
+	top: 335px;
+	left: 150px;
+	transform: rotate(210deg);
+}
+#petal7{
+	width: 50px;
+	height: 100px;
+	border-radius: 40px;
+	background-color: #cdf3f4;
+	position: fixed;
+	top: 250px;
+	left: 100px;
+	transform: rotate(260deg);
+}
+#petal8{
+	width: 50px;
+	height: 100px;
+	border-radius: 40px;
+	background-color: #cdf3f4;
+	position: fixed;
+	top: 135px;
+	left: 135px;
+	transform: rotate(315deg);
+}
+
+#petal9{
+	width: 50px;
+	height: 100px;
+	border-radius: 40px;
+	background-color: #cdf3f4;
+	position: fixed;
+	top: 90px;
+	left: 620px;
+}
+#petal10{
+	width: 50px;
+	height: 100px;
+	border-radius: 40px;
+	background-color: #cdf3f4;
+	position: fixed;
+	top: 130px;
+	left: 720px;
+	transform: rotate(45deg);
+}
+#petal11{
+	width: 50px;
+	height: 100px;
+	border-radius: 40px;
+	background-color: #cdf3f4;
+	position: fixed;
+	top: 220px;
+	left: 760px;
+	transform: rotate(80deg);
+}
+#petal12{
+	width: 50px;
+	height: 100px;
+	border-radius: 40px;
+	background-color: #cdf3f4;
+	position: fixed;
+	top: 320px;
+	left: 735px;
+	transform: rotate(130deg);
+}
+#petal13{
+	width: 50px;
+	height: 100px;
+	border-radius: 40px;
+	background-color: #cdf3f4;
+	position: fixed;
+	top: 360px;
+	left: 620px;
+	transform: rotate(180deg);
+}
+#petal14{
+	width: 50px;
+	height: 100px;
+	border-radius: 40px;
+	background-color: #cdf3f4;
+	position: fixed;
+	top: 335px;
+	left: 520px;
+	transform: rotate(220deg);
+}
+#petal15{
+	width: 50px;
+	height: 100px;
+	border-radius: 40px;
+	background-color: #cdf3f4;
+	position: fixed;
+	top: 250px;
+	left: 470px;
+	transform: rotate(250deg);
+}
+#petal16{
+	width: 50px;
+	height: 100px;
+	border-radius: 40px;
+	background-color: #cdf3f4;
+	position: fixed;
+	top: 135px;
+	left: 510px;
+	transform: rotate(315deg);
+}
+#petal17{
+	width: 50px;
+	height: 100px;
+	border-radius: 40px;
+	background-color: #cdf3f4;
+	position: fixed;
+	top: 220px;
+	left: 1130px;
+	transform: rotate(80deg);
+}
+#petal18{
+	width: 50px;
+	height: 100px;
+	border-radius: 40px;
+	background-color: #cdf3f4;
+	position: fixed;
+	top: 320px;
+	left: 1100px;
+	transform: rotate(140deg);
+}
+#petal19{
+	width: 50px;
+	height: 100px;
+	border-radius: 40px;
+	background-color: #cdf3f4;
+	position: fixed;
+	top: 360px;
+	left: 1000px;
+	transform: rotate(180deg);
+}
+#petal20{
+	width: 50px;
+	height: 100px;
+	border-radius: 40px;
+	background-color: #cdf3f4;
+	position: fixed;
+	top: 340px;
+	left: 910px;
+	transform: rotate(215deg);
+}
+#petal21{
+	width: 50px;
+	height: 100px;
+	border-radius: 40px;
+	background-color: #cdf3f4;
+	position: fixed;
+	top: 250px;
+	left: 860px;
+	transform: rotate(270deg);
+}
+#petal22{
+	width: 50px;
+	height: 100px;
+	border-radius: 40px;
+	background-color: #cdf3f4;
+	position: fixed;
+	top: 135px;
+	left: 880px;
+	transform: rotate(310deg);
+}
+#petal23{
+	width: 50px;
+	height: 100px;
+	border-radius: 40px;
+	background-color: #cdf3f4;
+	position: fixed;
+	top: 120px;
+	left: 1094px;
+	transform: rotate(45deg);
+}
+#petal24{
+	width: 50px;
+	height: 100px;
+	border-radius: 40px;
+	background-color: #cdf3f4;
+	position: fixed;
+	top: 90px;
+	left: 990px;
+}
+

@@ -1,0 +1,104 @@
+#one{
+position: fixed;
+top:220px;
+left: 70px;
+animation: bounce 2s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+#two{
+position: fixed;
+top:270px;
+left: 200px;
+animation: bounce 2s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+#three{
+position: fixed;
+top:235px;
+left: 300px;
+animation: bounce 2s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+#four{
+position: fixed;
+top:215px;
+left: 430px;
+animation: bounce 2s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+#five{
+position: fixed;
+top:225px;
+left: 580px;
+animation: bounce 2s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+#six{
+position: fixed;
+top:210px;
+left: 750px;
+animation: bounce 2s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+#seven{
+position: fixed;
+top:280px;
+left: 880px;
+animation: bounce 2s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+#title{
+	font-family: 'Sigmar One', cursive;
+	color: black;
+	font-size: 100px;
+	position: fixed;
+	top: 0px;
+	left: 30px;
+
+}
+#home{
+	font-family: 'Sigmar One', cursive;
+	color: black;
+	font-size: 20px;
+	position: fixed;
+	top: 0px;
+	left: 90%;
+}
+a:hover{
+	color:red;
+}
+a{
+	color:black;
+  text-align: center;
+text-decoration: none;
+}
+@keyframes bounce {
+  from { transform: translate3d(0, 0, 0);     }
+  to   { transform: translate3d(0, 20px, 0); }
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media only screen and (max-width: 768px) {
+  [class*="col-"] {
+    width: 100%;
+  }
+}
+    

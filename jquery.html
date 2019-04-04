@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<style type="text/css">
+	#second_div{
+
+	}
+	.background{
+		background-color: blue;
+	}
+</style>
+<body>
+	<h1 class="myelements"> this is about jQuery</h1>
+	<div class="myelements mydivs" id="first_div"> helloo</div>
+	<div class="my elements mydivs" id="second_div">WOW0wW0wowW0w</div>
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<script type="text/javascript">
+	$(window).ready(function(){
+
+	var myFirstDiv = $("#first_div");
+
+	var myContent = myFirstDiv.html();
+
+	myFirstDiv.html("new content!");
+
+	myFirstDiv.css({
+			"background-color" : "red",
+			"font-size" : "30px"	
+		});
+	$('#second_div').addClass("background").animate({
+		opacity : 0.5,
+		fontSize : "400px",
+	},
+	1500,
+	function(){
+		console.log ("animation finished!")
+	})
+
+	$("html").animate({
+		scrollTop: 600
+	}, 1500	)
+
+	
+
+	})
+
+
+</script>
+</body>
+</html>

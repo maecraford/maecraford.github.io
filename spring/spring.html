@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>spring</title>
+	<link href="spring.css"rel="stylesheet">
+</head>
+<body>
+	<div class="window" id="one">
+		<div class="petal"id="petal"></div>
+		<div class="petal"id="petal2"></div>
+		<div class="petal"id="petal3"></div>
+		<div class="petal"id="petal4"></div>
+		<div class="petal"id="petal5"></div>
+		<div class="petal"id="petal6"></div>
+		<div class="petal"id="petal7"></div>
+		<div class="petal"id="petal8"></div>
+	</div>
+	<div class="window" id="two">
+		<div class="petal"id="petal9"></div>
+		<div class="petal"id="petal10"></div>
+		<div class="petal"id="petal11"></div>
+		<div class="petal"id="petal12"></div>
+		<div class="petal"id="petal13"></div>
+		<div class="petal"id="petal14"></div>
+		<div class="petal"id="petal15"></div>
+			<div class="petal"id="petal16"></div>
+	</div>
+	<div class="window" id="three">
+		<div class="petal"id="petal17"></div>
+		<div class="petal"id="petal18"></div>
+		<div class="petal"id="petal19"></div>
+		<div class="petal"id="petal20"></div>
+		<div class="petal"id="petal21"></div>
+		<div class="petal"id="petal22"></div>
+		<div class="petal"id="petal23"></div>
+		<div class="petal"id="petal24"></div>
+	</div>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript" src="spring.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("#one,#two,#three").on({
+    mouseenter: function(){
+      $(this).css("background-color", "#f4f430");
+    },  
+
+    mouseleave: function(){
+      $(this).css("background-color", "#f9e636");
+    }, 
+    click: function(){
+      $(this).css("background-color", "#ed755a");
+    }  
+  });
+});
+$(document).ready(function(){
+  $(".petal").on({
+    mouseenter: function(){
+      $(this).css("background-color", "##f4f430");
+    },  
+    mouseleave: function(){
+      $(this).css("background-color", "#f7e88a");
+    }, 
+    click: function(){
+      $(this).css("background-color", "#edb1e9");
+    } 
+  });
+});
+</script>
+</body>
+</html>
