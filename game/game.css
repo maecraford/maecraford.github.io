@@ -1,42 +1,94 @@
-body{
-	background-color: #fcf82d;
+  body{
+  background-color: #fcf82d;
 }
 #box{
-	width: 800px;
-	height: 1700px;
-	background-color: white;
-	border-style: solid;
-	border-width: 5px;
-	border-color: black;
-	position: fixed;
-	left: 10%;
-	top:5%;
-	font-family: 'Press Start 2P', cursive;
-	font-size: 50px;
-	text-align: center;
-}
-#h2{
-	font-family: 'Press Start 2P', cursive;
-	font-size: 50px;
-	text-align: center;
-}
-#h1{
-	font-family: 'Press Start 2P', cursive;
-	font-size: 80px;
-	text-align: center;
+  width: 800px;
+  height: 1700px;
+  background-color: white;
+  border-style: solid;
+  border-width: 5px;
+  border-color: black;
+  position: fixed;
+  left: 10%;
+  top:5%;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 50px;
+  text-align: center;
 }
 #p{
-	font-family: 'Press Start 2P', cursive;
-	font-size: 50px;
-	text-align: center;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 50px;
+  text-align: center;
 }
 #main{
-	width: 780px;
-	height: 1680px;
-	background-color: white;
-	position: fixed;
-	left: 12%;
-	top:6%;
+  width: 780px;
+  height: 1680px;
+  background-color: white;
+  position: fixed;
+  left: 12%;
+  top:6%;
+}
+#start {
+  width: 500px;
+  height: 110px;
+  background-color: white;
+  border-style: solid;
+  border-width: 5px;
+  border-color: black;
+  position: fixed;
+  left: 25%;
+  top:87%;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 80px;
+  text-align:center;
+}
+#fashion{
+  height: 190px;
+  width: 470px;
+  position: fixed;
+  top:20px;
+  left: 25%;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 60px;
+  text-align:center;
+  width: 500px;
+  height: 110px;
+  background-color: white;
+  border-style: solid;
+  border-width: 5px;
+  border-color: black;
+}
+#cd{
+  height: 210px;
+  width: 500px;
+  position: fixed;
+  top:20px;
+  left: 25%;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 60px;
+  text-align:center;
+  width: 500px;
+  height: 110px;
+  background-color: white;
+  border-style: solid;
+  border-width: 5px;
+  border-color: black;
+}
+#txt{
+  position: fixed;
+  left: 31%;
+  top:88%;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 80px;
+  text-align:center;
+}
+#txt2{
+  position: fixed;
+  left: 30%;
+  top:88%;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 60px;
+  text-align:center;
 }
 #one{
   top:87%;
@@ -46,6 +98,7 @@ body{
   font-size: 30px;
   text-align: center;
   padding-top:10px;
+
 }
 #two{
   top:87%;
@@ -56,29 +109,6 @@ body{
   text-align: center;
     padding-top:10px;
 }
-
-#start {
-	width: 500px;
-	height: 110px;
-	background-color: white;
-	border-style: solid;
-	border-width: 5px;
-	border-color: black;
-	position: fixed;
-	left: 25%;
-	top:87%;
-	font-family: 'Press Start 2P', cursive;
-	font-size: 80px;
-	text-align:center;
-}
-#txt{
-  position: fixed;
-  left: 31%;
-  top:88%;
-  font-family: 'Press Start 2P', cursive;
-  font-size: 80px;
-  text-align:center;
-}
 .button{
   background-color: white;
   border-style: solid;
@@ -88,222 +118,16 @@ body{
   left: 20%;
   top:87%;
 }
+
 button{
-	font-family: 'Press Start 2P', cursive;
-	text-align: center;
-}
-a{
   font-family: 'Press Start 2P', cursive;
-  text-align:center;
+  text-align: center;
+}
+
+a{
   color: black;
-  text-decoration: none;
+  text-decoration:none;
+  font-family: 'Press Start 2P', cursive;
 }
 
-.css-typing p {
-  border-right: .15em solid white;
-  font-family: "Press Start 2P";
-  font-size: 50px;
-  white-space: nowrap;
-  overflow: hidden;
-}
-.css-typing p:nth-child(1) {
-  width: 770px;
-  -webkit-animation: type 2s steps(40, end);
-  animation: type 2s steps(40, end);
-  -webkit-animation-fill-mode: forwards;
-  animation-fill-mode: forwards;
-}
 
-.css-typing p:nth-child(2) {
-  width: 770px;
-  opacity: 0;
-  -webkit-animation: type2 2s steps(40, end);
-  animation: type2 2s steps(40, end);
-  -webkit-animation-delay: 2s;
-  animation-delay: 2s;
-  -webkit-animation-fill-mode: forwards;
-  animation-fill-mode: forwards;
-}
-.css-typing p:nth-child(3) {
-  width: 770px;
-  opacity: 0;
-  -webkit-animation: type3 5s steps(40, end);
-  animation: type3 5s steps(40, end);
-  -webkit-animation-delay: 4s;
-  animation-delay: 4s;
-  -webkit-animation-fill-mode: forwards;
-  animation-fill-mode: forwards;
-}
-.css-typing p:nth-child(4) {
-  width: 770px;
-  opacity: 0;
-  -webkit-animation: type4 8s steps(40, end);
-  animation: type4 5s steps(40, end);
-  -webkit-animation-delay: 8s;
-  animation-delay: 8s;
-  -webkit-animation-fill-mode: forwards;
-  animation-fill-mode: forwards;
-}
-.css-typing p:nth-child(5) {
-  width: 770px;
-  opacity: 0;
-  -webkit-animation: type5 11s steps(20, end), blink .5s step-end infinite alternate;
-  animation: type5 8s steps(20, end), blink .5s step-end infinite alternate;
-  -webkit-animation-delay: 12s;
-  animation-delay: 12s;
-  -webkit-animation-fill-mode: forwards;
-  animation-fill-mode: forwards;
-}
-
-@keyframes type {
-  0% {
-    width: 0;
-  }
-  99.9% {
-    border-right: .15em solid white;
-  }
-  100% {
-    border: none;
-  }
-}
-
-@-webkit-keyframes type {
-  0% {
-    width: 0;
-  }
-  99.9% {
-    border-right: .15em solid white;
-  }
-  100% {
-    border: none;
-  }
-}
-
-@keyframes type2 {
-  0% {
-    width: 0;
-  }
-  1% {
-    opacity: 1;
-  }
-  99.9% {
-    border-right: .15em solid white;
-  }
-  100% {
-    opacity: 1;
-    border: none;
-  }
-}
-
-@-webkit-keyframes type2 {
-  0% {
-    width: 0;
-  }
-  1% {
-    opacity: 1;
-  }
-  99.9% {
-    border-right: .15em solid white;
-  }
-  100% {
-    opacity: 1;
-    border: none;
-  }
-}
-
-@keyframes type3 {
-  0% {
-    width: 0;
-  }
-  1% {
-    opacity: 1;
-  }
-  99.9% {
-    border-right: .15em solid white;
-  }
-  100% {
-    opacity: 1;
-    border: none;
-  }
-}
-
-@-webkit-keyframes type3 {
-  0% {
-    width: 0;
-  }
-  1% {
-    opacity: 1;
-  }
-  99.9% {
-    border-right: .15em solid white;
-  }
-  100% {
-    opacity: 1;
-    border: none;
-  }
-}
-@keyframes type4 {
-  0% {
-    width: 0;
-  }
-  1% {
-    opacity: 1;
-  }
-  99.9% {
-    border-right: .15em solid white;
-  }
-  100% {
-    opacity: 1;
-    border: none;
-  }
-}
-
-@-webkit-keyframes type4 {
-  0% {
-    width: 0;
-  }
-  1% {
-    opacity: 1;
-  }
-  99.9% {
-    border-right: .15em solid white;
-  }
-  100% {
-    opacity: 1;
-    border: none;
-  }
-}
-@keyframes type5 {
-  0% {
-    width: 0;
-  }
-  1% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-@-webkit-keyframes type5 {
-  0% {
-    width: 0;
-  }
-  1% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-@keyframes blink {
-  50% {
-    border-color: transparent;
-  }
-}
-@-webkit-keyframes blink {
-  50% {
-    border-color: tranparent;
-  }
-}
