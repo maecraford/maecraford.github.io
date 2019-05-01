@@ -1,5 +1,5 @@
   body{
-  background-color: #fcf82d;
+  background-color: #f736ca;
 }
 #box{
   width: 800px;
@@ -42,110 +42,19 @@
   font-size: 80px;
   text-align:center;
 }
-#fashion{
-  height: 100px;
-  width: 425px;
-  position: fixed;
-  top:220px;
-  left: 30%;
-  font-family: 'Press Start 2P', cursive;
-  font-size: 60px;
-  text-align:center;
+#junior {
+  width: 530px;
+  height: 140px;
   background-color: white;
   border-style: solid;
   border-width: 5px;
   border-color: black;
-  border-radius: 20px;
-}
-#gd{
-  height: 150px;
-  width: 500px;
   position: fixed;
-  top:390px;
   left: 25%;
+  top:87%;
   font-family: 'Press Start 2P', cursive;
   font-size: 60px;
   text-align:center;
-  background-color: white;
-  border-style: solid;
-  border-width: 5px;
-  border-color: black;
-  border-radius: 20px;
-}
-#pd{
-  height: 150px;
-  width: 500px;
-  position: fixed;
-  top:585px;
-  left: 25%;
-  font-family: 'Press Start 2P', cursive;
-  font-size: 60px;
-  text-align:center;
-  background-color: white;
-  border-style: solid;
-  border-width: 5px;
-  border-color: black;
-  border-radius: 20px;
-}
-#illustration{
-  height: 100px;
-  width: 740px;
-  position: fixed;
-  top:780px;
-  left: 12%;
-  font-family: 'Press Start 2P', cursive;
-  font-size: 60px;
-  text-align:center;
-  background-color: white;
-  border-style: solid;
-  border-width: 5px;
-  border-color: black;
-  border-radius: 20px;
-}
-#architecture{
-  height: 100px;
-  width: 740px;
-  position: fixed;
-  top:940px;
-  left: 12%;
-  font-family: 'Press Start 2P', cursive;
-  font-size: 60px;
-  text-align:center;
-  background-color: white;
-  border-style: solid;
-  border-width: 5px;
-  border-color: black;
-  border-radius: 20px;
-}
-#fa{
-  height: 100px;
-  width: 500px;
-  position: fixed;
-  top:1085px;
-  left: 25%;
-  font-family: 'Press Start 2P', cursive;
-  font-size: 60px;
-  text-align:center;
-  background-color: white;
-  border-style: solid;
-  border-width: 5px;
-  border-color: black;
-  border-radius: 20px;
-}
-#photo{
-  height: 100px;
-  width: 740px;
-  position: fixed;
-  top:1240px;
-  left: 12%;
-  font-family: 'Press Start 2P', cursive;
-  font-size: 60px;
-  text-align:center;
-  background-color: white;
-  border-style: solid;
-  border-width: 5px;
-  border-color: black;
-  border-radius: 20px;
 }
 #txt{
   position: fixed;
@@ -190,7 +99,7 @@
   position: fixed;
   left: 20%;
   top:87%;
-     -webkit-animation-name: hvr-pop;
+   -webkit-animation-name: hvr-pop;
   animation-name: hvr-pop;
   -webkit-animation-duration: 1s;
   animation-duration: 1s;
@@ -204,21 +113,31 @@
   transform: perspective(1px) translateZ(0);
   box-shadow: 0 0 1px rgba(0, 0, 0, 0);
 }
+}
 
 button{
   font-family: 'Press Start 2P', cursive;
   text-align: center;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  display: inline-flex;
+  margin: 20px 20px 20px 20px;
 }
 
 a{
   color: black;
   text-decoration:none;
   font-family: 'Press Start 2P', cursive;
-    justify-content: center;
+  justify-content: center;
   overflow: hidden;
   display: inline-flex;
   margin: 20px 20px 20px 20px;
 }
+a.hover{
+  color:#40d642;
+}
+
 
 @-webkit-keyframes hvr-pop {
   50% {
@@ -249,3 +168,4 @@ a{
   -webkit-animation-iteration-count: 1;
   animation-iteration-count: 1;
 }
+
