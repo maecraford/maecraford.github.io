@@ -15,11 +15,13 @@
   font-size: 50px;
   text-align: center;
 }
+
 #p{
   font-family: 'Press Start 2P', cursive;
   font-size: 50px;
   text-align: center;
 }
+
 #main{
   width: 780px;
   height: 1680px;
@@ -113,7 +115,11 @@
   transform: perspective(1px) translateZ(0);
   box-shadow: 0 0 1px rgba(0, 0, 0, 0);
 }
+/*
+.button:hover{
+  color: red;
 }
+*/
 
 button{
   font-family: 'Press Start 2P', cursive;
@@ -134,7 +140,8 @@ a{
   display: inline-flex;
   margin: 20px 20px 20px 20px;
 }
-a.hover{
+
+a:hover{
   color:#40d642;
 }
 
@@ -169,3 +176,5 @@ a.hover{
   animation-iteration-count: 1;
 }
 
+
+}
