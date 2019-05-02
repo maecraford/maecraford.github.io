@@ -12,7 +12,7 @@
   left: 10%;
   top:5%;
   font-family: 'Press Start 2P', cursive;
-  font-size: 50px;
+  font-size: 5vw;
   text-align: center;
 }
 
@@ -42,6 +42,20 @@
   top:87%;
   font-family: 'Press Start 2P', cursive;
   font-size: 80px;
+  text-align:center;
+}
+#drop {
+  width: 500px;
+  height: 110px;
+  background-color: white;
+  border-style: solid;
+  border-width: 5px;
+  border-color: black;
+  position: fixed;
+  left: 25%;
+  top:87%;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 5vw;
   text-align:center;
 }
 #junior {
@@ -79,7 +93,7 @@
   left: 20%;
   height: 110px;
   width: 250px;
-  font-size: 30px;
+  font-size: 3vw;
   text-align: center;
   padding-top:10px;
 
@@ -89,7 +103,7 @@
   left: 55%;
   height: 110px;
   width: 250px;
-    font-size: 30px;
+    font-size: 3vw;
   text-align: center;
     padding-top:10px;
 }
