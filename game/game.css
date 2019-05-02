@@ -47,106 +47,105 @@
   height: 100px;
   width: 425px;
   position: fixed;
-  top:220px;
+  top:200px;
   left: 30%;
   font-family: 'Press Start 2P', cursive;
-  font-size: 60px;
+  font-size: 5vw;
   text-align:center;
   background-color: white;
   border-style: solid;
   border-width: 5px;
   border-color: black;
-  border-radius: 20px;
+
 }
 #gd{
   height: 150px;
   width: 500px;
   position: fixed;
-  top:390px;
+  top:420px;
   left: 25%;
   font-family: 'Press Start 2P', cursive;
-  font-size: 60px;
+  font-size: 5vw;
   text-align:center;
   background-color: white;
   border-style: solid;
   border-width: 5px;
   border-color: black;
-  border-radius: 20px;
+
 }
 #pd{
   height: 150px;
   width: 500px;
   position: fixed;
-  top:585px;
+  top:685px;
   left: 25%;
   font-family: 'Press Start 2P', cursive;
-  font-size: 60px;
+  font-size: 5vw;
   text-align:center;
   background-color: white;
   border-style: solid;
   border-width: 5px;
   border-color: black;
-  border-radius: 20px;
+
 }
 #illustration{
   height: 100px;
   width: 740px;
   position: fixed;
-  top:780px;
+  top:980px;
   left: 12%;
   font-family: 'Press Start 2P', cursive;
-  font-size: 60px;
+  font-size: 5vw;
   text-align:center;
   background-color: white;
   border-style: solid;
   border-width: 5px;
   border-color: black;
-  border-radius: 20px;
 }
 #architecture{
-  height: 100px;
-  width: 740px;
-  position: fixed;
-  top:940px;
-  left: 12%;
-  font-family: 'Press Start 2P', cursive;
-  font-size: 60px;
-  text-align:center;
-  background-color: white;
-  border-style: solid;
-  border-width: 5px;
-  border-color: black;
-  border-radius: 20px;
-}
-#fa{
-  height: 100px;
-  width: 500px;
-  position: fixed;
-  top:1085px;
-  left: 25%;
-  font-family: 'Press Start 2P', cursive;
-  font-size: 60px;
-  text-align:center;
-  background-color: white;
-  border-style: solid;
-  border-width: 5px;
-  border-color: black;
-  border-radius: 20px;
-}
-#photo{
   height: 100px;
   width: 740px;
   position: fixed;
   top:1240px;
   left: 12%;
   font-family: 'Press Start 2P', cursive;
-  font-size: 60px;
+  font-size: 5vw;
   text-align:center;
   background-color: white;
   border-style: solid;
   border-width: 5px;
   border-color: black;
-  border-radius: 20px;
+
+}
+#fa{
+  height: 100px;
+  width: 500px;
+  position: fixed;
+  top:1485px;
+  left: 25%;
+  font-family: 'Press Start 2P', cursive;
+  font-size:5vw;
+  text-align:center;
+  background-color: white;
+  border-style: solid;
+  border-width: 5px;
+  border-color: black;
+
+}
+#photo{
+  height: 100px;
+  width: 740px;
+  position: fixed;
+  top:1740px;
+  left: 12%;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 5vw;
+  text-align:center;
+  background-color: white;
+  border-style: solid;
+  border-width: 5px;
+  border-color: black;
+
 }
 #txt{
   position: fixed;
