@@ -21,6 +21,20 @@
   font-size: 50px;
   text-align: center;
 }
+#title{
+   font-family: 'Press Start 2P', cursive;
+  font-size: 8vw;
+  text-align: center;
+  line-height: 2.5vh; 
+      margin-top: 1vh;
+}
+#title2{
+   font-family: 'Press Start 2P', cursive;
+  font-size: 6vw;
+  text-align: center;
+  line-height: 2.5vh; 
+    margin-top: 1vh;
+}
 #main{
   width: 780px;
   height: 1680px;
@@ -52,9 +66,9 @@
   border-color: black;
   position: fixed;
   left: 25%;
-  top:87%;
+  top:87.5%;
   font-family: 'Press Start 2P', cursive;
-  font-size: 60px;
+  font-size: 5vw;
   text-align:center;
 }
 #txt{
@@ -78,19 +92,22 @@
   left: 20%;
   height: 110px;
   width: 250px;
-  font-size: 30px;
+  font-size: 3vw;
   text-align: center;
-  padding-top:10px;
-
+  line-height: 2vh;
+  justify-content: center;
+  margin: 2px;
 }
 #two{
   top:87%;
   left: 55%;
   height: 110px;
   width: 250px;
-    font-size: 30px;
+  font-size: 3vw;
   text-align: center;
-    padding-top:10px;
+  line-height: 2vh;
+  justify-content: center;
+  margin: 2px;
 }
 .button{
   background-color: white;
@@ -127,7 +144,10 @@ a{
   justify-content: center;
   overflow: hidden;
   display: inline-flex;
-  margin: 20px 20px 20px 20px;
+  margin-top: 1vh;
+}
+a:hover{
+  color:#1568ed;
 }
 @-webkit-keyframes hvr-pop {
   50% {

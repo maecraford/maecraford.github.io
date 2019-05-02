@@ -1,5 +1,5 @@
   body{
-  background-color: #fcf82d;
+  background-color: red;
 }
 #box{
   width: 800px;
@@ -21,19 +21,13 @@
   font-size: 50px;
   text-align: center;
 }
-#title2{
-   font-family: 'Press Start 2P', cursive;
-  font-size: 6vw;
-  text-align: center;
-  line-height: 2.5vh; 
-    margin-top: 1vh;
-}
 #title{
    font-family: 'Press Start 2P', cursive;
-  font-size: 8vw;
+  font-size: 15vw;
   text-align: center;
   line-height: 2.5vh; 
-  margin-top: 1vh;
+  margin-top: 5vh;
+  color: red;
 }
 #main{
   width: 780px;
@@ -57,134 +51,13 @@
   font-size: 8vw;
   text-align:center;
 }
-#fashion{
-  height: 100px;
-  width: 425px;
-  position: fixed;
-  top:200px;
-  left: 30%;
-  font-family: 'Press Start 2P', cursive;
-  font-size: 5vw;
-  text-align:center;
-  background-color: white;
-  border-style: solid;
-  border-width: 5px;
-  border-color: black;
 
-}
-#gd{
-  height: 150px;
-  width: 500px;
-  position: fixed;
-  top:420px;
-  left: 25%;
-  font-family: 'Press Start 2P', cursive;
-  font-size: 5vw;
-  text-align:center;
-  background-color: white;
-  border-style: solid;
-  border-width: 5px;
-  border-color: black;
-
-}
-#pd{
-  height: 150px;
-  width: 500px;
-  position: fixed;
-  top:685px;
-  left: 25%;
-  font-family: 'Press Start 2P', cursive;
-  font-size: 5vw;
-  text-align:center;
-  background-color: white;
-  border-style: solid;
-  border-width: 5px;
-  border-color: black;
-
-}
-#illustration{
-  height: 100px;
-  width: 740px;
-  position: fixed;
-  top:980px;
-  left: 12%;
-  font-family: 'Press Start 2P', cursive;
-  font-size: 5vw;
-  text-align:center;
-  background-color: white;
-  border-style: solid;
-  border-width: 5px;
-  border-color: black;
-}
-#architecture{
-  height: 100px;
-  width: 740px;
-  position: fixed;
-  top:1240px;
-  left: 12%;
-  font-family: 'Press Start 2P', cursive;
-  font-size: 5vw;
-  text-align:center;
-  background-color: white;
-  border-style: solid;
-  border-width: 5px;
-  border-color: black;
-
-}
-#fa{
-  height: 100px;
-  width: 500px;
-  position: fixed;
-  top:1485px;
-  left: 25%;
-  font-family: 'Press Start 2P', cursive;
-  font-size:5vw;
-  text-align:center;
-  background-color: white;
-  border-style: solid;
-  border-width: 5px;
-  border-color: black;
-
-}
-#photo{
-  height: 100px;
-  width: 740px;
-  position: fixed;
-  top:1740px;
-  left: 12%;
-  font-family: 'Press Start 2P', cursive;
-  font-size: 5vw;
-  text-align:center;
-  background-color: white;
-  border-style: solid;
-  border-width: 5px;
-  border-color: black;
-
-}
-#txt{
-  position: fixed;
-  left: 31%;
-  top:87.5%;
-  font-family: 'Press Start 2P', cursive;
-  font-size: 8vw;
-  text-align:center;
-   justify-content: center;
-}
 #txt2{
   position: fixed;
-  left: 29%;
-  top:87%;
-  font-family: 'Press Start 2P', cursive;
-  font-size: 7vw;
-  text-align:center;
- justify-content: center;
-}
-#majors{
-  position: fixed;
-  left: 33%;
+  left: 27%;
   top:87.5%;
   font-family: 'Press Start 2P', cursive;
-  font-size: 6vw;
+  font-size: 7vw;
   text-align:center;
  justify-content: center;
 }
@@ -246,7 +119,7 @@ a{
   margin-top: 1vh;
 }
 a:hover{
-  color:#fcf82d;
+  color:red;
 }
 
 @-webkit-keyframes hvr-pop {

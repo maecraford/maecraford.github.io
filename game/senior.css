@@ -21,6 +21,13 @@
   font-size: 50px;
   text-align: center;
 }
+#title{
+   font-family: 'Press Start 2P', cursive;
+  font-size: 8vw;
+  text-align: center;
+    margin-top: 1vh;
+  line-height: 2.5vh; 
+}
 #main{
   width: 780px;
   height: 1680px;
@@ -73,24 +80,33 @@
   font-size: 60px;
   text-align:center;
 }
+#txt3{
+  position: fixed;
+  left: 27%;
+  top:87.5%;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 5vw;
+  text-align:center;
+}
 #one{
   top:87%;
   left: 20%;
   height: 110px;
   width: 250px;
-  font-size: 30px;
+  font-size: 3vw;
   text-align: center;
-  padding-top:10px;
-
+  line-height: 2vh;
+  justify-content: center;
 }
 #two{
   top:87%;
   left: 55%;
   height: 110px;
   width: 250px;
-    font-size: 30px;
+  font-size: 3vw;
   text-align: center;
-    padding-top:10px;
+  line-height: 2vh;
+  justify-content: center;
 }
 .button{
   background-color: white;
@@ -136,7 +152,7 @@ a{
   margin: 20px 20px 20px 20px;
 }
 a.hover{
-  color:#40d642;
+  color:#f736ca;
 }
 
 
