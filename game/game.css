@@ -1,0 +1,293 @@
+  body{
+  background-color: #fcf82d;
+}
+#box{
+  width: 800px;
+  height: 1700px;
+  background-color: white;
+  border-style: solid;
+  border-width: 5px;
+  border-color: black;
+  position: fixed;
+  left: 10%;
+  top:5%;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 4vw;
+  text-align: center;
+  line-height: 2.5vh;
+}
+#p{
+  font-family: 'Press Start 2P', cursive;
+  font-size: 50px;
+  text-align: center;
+}
+#title2{
+   font-family: 'Press Start 2P', cursive;
+  font-size: 6vw;
+  text-align: center;
+  line-height: 2.5vh; 
+    margin-top: 1vh;
+}
+#title{
+   font-family: 'Press Start 2P', cursive;
+  font-size: 8vw;
+  text-align: center;
+  line-height: 2.5vh; 
+  margin-top: 1vh;
+}
+#main{
+  width: 780px;
+  height: 1680px;
+  background-color: white;
+  position: fixed;
+  left: 12%;
+  top:6%;
+}
+#start {
+  width: 500px;
+  height: 110px;
+  background-color: white;
+  border-style: solid;
+  border-width: 5px;
+  border-color: black;
+  position: fixed;
+  left: 25%;
+  top:87%;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 8vw;
+  text-align:center;
+}
+#fashion{
+  height: 100px;
+  width: 425px;
+  position: fixed;
+  top:200px;
+  left: 30%;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 5vw;
+  text-align:center;
+  background-color: white;
+  border-style: solid;
+  border-width: 5px;
+  border-color: black;
+
+}
+#gd{
+  height: 150px;
+  width: 500px;
+  position: fixed;
+  top:420px;
+  left: 25%;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 5vw;
+  text-align:center;
+  background-color: white;
+  border-style: solid;
+  border-width: 5px;
+  border-color: black;
+
+}
+#pd{
+  height: 150px;
+  width: 500px;
+  position: fixed;
+  top:685px;
+  left: 25%;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 5vw;
+  text-align:center;
+  background-color: white;
+  border-style: solid;
+  border-width: 5px;
+  border-color: black;
+
+}
+#illustration{
+  height: 100px;
+  width: 740px;
+  position: fixed;
+  top:980px;
+  left: 12%;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 5vw;
+  text-align:center;
+  background-color: white;
+  border-style: solid;
+  border-width: 5px;
+  border-color: black;
+}
+#architecture{
+  height: 100px;
+  width: 740px;
+  position: fixed;
+  top:1240px;
+  left: 12%;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 5vw;
+  text-align:center;
+  background-color: white;
+  border-style: solid;
+  border-width: 5px;
+  border-color: black;
+
+}
+#fa{
+  height: 100px;
+  width: 500px;
+  position: fixed;
+  top:1485px;
+  left: 25%;
+  font-family: 'Press Start 2P', cursive;
+  font-size:5vw;
+  text-align:center;
+  background-color: white;
+  border-style: solid;
+  border-width: 5px;
+  border-color: black;
+
+}
+#photo{
+  height: 100px;
+  width: 740px;
+  position: fixed;
+  top:1740px;
+  left: 12%;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 5vw;
+  text-align:center;
+  background-color: white;
+  border-style: solid;
+  border-width: 5px;
+  border-color: black;
+
+}
+#txt{
+  position: fixed;
+  left: 31%;
+  top:87.5%;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 8vw;
+  text-align:center;
+   justify-content: center;
+}
+#txt2{
+  position: fixed;
+  left: 29%;
+  top:87%;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 7vw;
+  text-align:center;
+ justify-content: center;
+}
+#majors{
+  position: fixed;
+  left: 33%;
+  top:87.5%;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 6vw;
+  text-align:center;
+ justify-content: center;
+      -webkit-animation-name: hvr-pop;
+  animation-name: hvr-pop;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: 2;
+  animation-iteration-count: 2;
+   display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+#one{
+  top:87%;
+  left: 20%;
+  height: 110px;
+  width: 250px;
+  font-size: 3vw;
+  text-align: center;
+  line-height: 2vh;
+  justify-content: center;
+}
+#two{
+  top:87%;
+  left: 55%;
+  height: 110px;
+  width: 250px;
+  font-size: 3vw;
+  text-align: center;
+  line-height: 2vh;
+  justify-content: center;
+}
+.button{
+  background-color: white;
+  border-style: solid;
+  border-width: 5px;
+  border-color: black;
+  position: fixed;
+  left: 20%;
+  top:87%;
+     -webkit-animation-name: hvr-pop;
+  animation-name: hvr-pop;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: 2;
+  animation-iteration-count: 2;
+   display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+
+button{
+  font-family: 'Press Start 2P', cursive;
+  text-align: center;
+}
+
+a{
+  color: black;
+  text-decoration:none;
+  font-family: 'Press Start 2P', cursive;
+    justify-content: center;
+  overflow: hidden;
+  display: inline-flex;
+  margin-top: 1vh;
+}
+a:hover{
+  color:#fcf82d;
+}
+
+@-webkit-keyframes hvr-pop {
+  50% {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+}
+@keyframes hvr-pop {
+  50% {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+}
+.hvr-pop {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+.hvr-pop:hover, .hvr-pop:focus, .hvr-pop:active {
+  -webkit-animation-name: hvr-pop;
+  animation-name: hvr-pop;
+  -webkit-animation-duration: 0.3s;
+  animation-duration: 0.3s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+}
