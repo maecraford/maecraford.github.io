@@ -1,0 +1,83 @@
+body{
+background-color: #853c15;
+background-image: url("https://www.transparenttextures.com/patterns/brick-wall-dark.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+#one{
+	width: 150px;
+	height: 250px;
+	background-color: #eaf4f7;
+	position: fixed;
+	top:150px;
+	left: 60px;
+
+}
+#two{
+		width: 150px;
+	height: 250px;
+	background-color: #eaf4f7;
+	position: fixed;
+	top:150px;
+	left: 280px;
+}
+#three{
+		width: 150px;
+	height: 250px;
+	background-color: #eaf4f7;
+	position: fixed;
+	top:150px;
+	left: 500px;
+}
+#four{
+	width: 150px;
+	height: 250px;
+	background-color: #eaf4f7;
+	position: fixed;
+	top:150px;
+	left: 720px;
+}
+.windowbox {
+	width: 150px;
+	height:40px;
+	background-color: #f9eaf8;
+	position: fixed;
+	top: 400px;
+	box-shadow: 3px 5px #473e46;
+}
+
+#pane1{
+	width: 130px;
+	height: 210px;
+	position: fixed;
+	top:170px;
+	left: 70px;
+	background-color: #d6f9fc;
+	box-shadow: 1px 1px #888888;
+}
+#pane2{
+	width: 130px;
+	height: 210px;
+	position: fixed;
+	top:170px;
+	left:290px;
+	background-color: #d6f9fc;
+	box-shadow: 1px 1px #888888;
+}
+#pane3{
+	width: 130px;
+	height: 210px;
+	position: fixed;
+	top:170px;
+	left: 510px;
+	background-color: #d6f9fc;
+	box-shadow: 1px 1px #888888;
+}
+#pane4{
+	width: 130px;
+	height: 210px;
+	position: fixed;
+	top:170px;
+	left: 730px;
+	background-color: #d6f9fc;
+	box-shadow: 1px 1px #888888;
+}
