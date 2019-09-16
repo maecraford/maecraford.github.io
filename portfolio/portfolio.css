@@ -21,6 +21,10 @@ h2{
   display: flex;
   text-align: center;
 }
+#second {
+  display: flex;
+  text-align: center;
+}
 #class {
   color:white;
   float: left;
