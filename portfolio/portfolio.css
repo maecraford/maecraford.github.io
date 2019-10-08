@@ -19,10 +19,14 @@ h2{
 }
 #parent {
   display: flex;
+  width: 100%;
+  height: 100px;
   text-align: center;
 }
 #second {
   display: flex;
+  width: 100%;
+  height: 100px;
   text-align: center;
 }
 #class {
