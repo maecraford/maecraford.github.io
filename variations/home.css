@@ -1,8 +1,11 @@
-a{
-	background-color:pink;
-}
+
 #main{
 	font-size: 70pt;
+	font-family: "futura",sans-serif;
+	text-align: center;
+}
+#body{
+		font-size: 24pt;
 	font-family: "futura",sans-serif;
 	text-align: center;
 }
