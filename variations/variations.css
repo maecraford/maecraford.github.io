@@ -1,0 +1,668 @@
+
+#home{
+	font-family: "futura",sans-serif;  
+	font-size: 30px;
+	position: fixed;
+	color: black;
+	top:1px;
+	left: 20px;
+}
+
+#piece{
+	font-family: "futura",sans-serif;  
+	font-size: 30px;
+	position: fixed;
+	top:70px;
+	left: 65%;
+  	cursor: move;
+  	z-index: 10;
+  	color: black;
+}
+
+#piece2{
+	font-family: "futura",sans-serif; 
+	font-size: 30px;
+	position: fixed;
+	top:600px;
+	left: 50%;
+  	cursor: move;
+  	z-index: 10;
+  	color: black;
+}
+#piece3{
+	font-family: "futura",sans-serif; 
+	font-size: 30px;
+	position: fixed;
+	top:635px;
+	left: 35%;
+  	cursor: move;
+  	z-index: 10;
+  	color: black;
+}
+#piece4{
+	font-family: "futura",sans-serif;  
+	font-size: 30px;
+	position: fixed;
+	top:400px;
+	left: 25%;
+  	cursor: move;
+  	z-index: 10;
+  	color: black;
+}
+
+#piece5{
+	font-family: "futura",sans-serif;  
+	font-size: 30px;
+	position: fixed;
+	top:270px;
+	left: 70%;
+  	cursor: move;
+  	z-index: 10;
+  	color: black;
+}
+
+#piece6{
+	font-family: "futura",sans-serif;  
+	font-size: 30px;
+	position: fixed;
+	top:250px;
+	left: 15%;
+  	cursor: move;
+  	z-index: 10;
+  	color: black;
+}
+
+#piece7{
+	font-family: "futura",sans-serif;  
+	font-size: 30px;
+	position: fixed;
+	top:40px;
+	left: 49%;
+  	cursor: move;
+  	z-index: 10;
+  	color: black;
+}
+
+
+#piece8{
+	font-family: "futura",sans-serif; 
+	font-size: 30px;
+	position: fixed;
+	top:160px;
+	left: 32%;
+  	cursor: move;
+  	z-index: 10;
+  	color: black;
+}
+
+#piece9{
+	font-family: "futura",sans-serif;  
+	font-size: 30px;
+	position: fixed;
+	top:600px;
+	left: 38%;
+  	cursor: move;
+  	z-index: 10;
+  	color: black;
+}
+
+#piece10{
+	font-family: "futura",sans-serif;  
+	font-size: 30px;
+	position: fixed;
+	top:900px;
+	left: 17%;
+  	cursor: move;
+  	z-index: 10;
+  	color: black;
+}
+
+
+#piece11{
+	font-family: "futura",sans-serif;  
+	font-size: 30px;
+	position: fixed;
+	top:440px;
+	left: 48%;
+  	cursor: move;
+  	z-index: 10;
+  	color: black;
+}
+
+#piece12{
+	font-family: "futura",sans-serif;  
+	font-size: 30px;
+	position: fixed;
+	top:480px;
+	left: 18%;
+  	cursor: move;
+  	z-index: 10;
+  	color: black;
+}
+
+#piece13{
+	font-family: "futura",sans-serif;  
+	font-size: 30px;
+	position: fixed;
+	top:485px;
+	left: 68%;
+  	cursor: move;
+  	z-index: 10;
+  	color: black;
+}
+
+#piece14{
+	font-family: "futura",sans-serif;  
+	font-size: 30px;
+	position: fixed;
+	top:420px;
+	left: 69%;
+  	cursor: move;
+  	z-index: 10;
+  	color: black;
+}
+#piece15{
+	font-family: "futura",sans-serif;  
+	font-size: 30px;
+	position: fixed;
+	top: 40px;
+	left: 16%;
+  	cursor: move;
+  	z-index: 10;
+  	color: black;
+}
+
+#piece16{
+	font-family: "futura",sans-serif; 
+	font-size: 30px;
+	position: fixed;
+	top:100px;
+	left: 36%;
+  	cursor: move;
+  	z-index: 10;
+  	color: black;
+}
+#piece17{
+	font-family: "futura",sans-serif;  
+	font-size: 30px;
+	position: fixed;
+	top:800px;
+	left: 69%;
+  	cursor: move;
+  	z-index: 10;
+  	color: black;
+}
+
+#piece18{
+	font-family: "futura",sans-serif;  
+	font-size: 30px;
+	position: fixed;
+	top:900px;
+	left: 20%;
+  	cursor: move;
+  	z-index: 10;
+  	color: black;
+}#piece19{
+	font-family: "futura",sans-serif;  
+	font-size: 30px;
+	position: fixed;
+	top:420px;
+	left: 80%;
+  	cursor: move;
+  	z-index: 10;
+  	color: black;
+}
+
+#piece20{
+	font-family: "futura",sans-serif;  
+	font-size: 30px;
+	position: fixed;
+	top:600px;
+	left: 80%;
+  	cursor: move;
+  	z-index: 10;
+  	color: black;
+}
+#piece21{
+	font-family: "futura",sans-serif;  
+	font-size: 30px;
+	position: fixed;
+	top:90px;
+	left: 90%;
+  	cursor: move;
+  	z-index: 10;
+  	color: black;
+}
+#piece22{
+	font-family: "futura",sans-serif;  
+	font-size: 30px;
+	position: fixed;
+	top:440px;
+	left: 36%;
+  	cursor: move;
+  	z-index: 10;
+  	color: black;
+}
+
+#piece23{
+	font-family: "futura",sans-serif;  
+	font-size: 30px;
+	position: fixed;
+	top:230px;
+	left: 85%;
+  	cursor: move;
+  	z-index: 10;
+  	color: black;
+}
+#piece24{
+	font-family: "futura",sans-serif;  
+	font-size: 30px;
+	position: fixed;
+	top:300px;
+	left:93%;
+  	cursor: move;
+  	z-index: 10;
+  	color: black;
+}
+#piece25{
+	font-family: "futura",sans-serif;  
+	font-size: 30px;
+	position: fixed;
+	top:420px;
+	left: 6%;
+  	cursor: move;
+  	z-index: 10;
+  	color: black;
+}
+#piece26{
+	font-family: "futura",sans-serif;  
+	font-size: 30px;
+	position: fixed;
+	top:200px;
+	left: 86%;
+  	cursor: move;
+  	z-index: 10;
+  	color: black;
+}
+#piece27{
+	font-family: "futura",sans-serif;  
+	font-size: 30px;
+	position: fixed;
+	top: 200px;
+	left: 9%;
+  	cursor: move;
+  	z-index: 10;
+  	color: black;
+}
+#piece28{
+	font-family: "futura",sans-serif;  
+	font-size: 30px;
+	position: fixed;
+	top:230px;
+	left: 9%;
+  	cursor: move;
+  	z-index: 10;
+  	color: black;
+}
+
+#piece29{
+	font-family: "futura",sans-serif;  
+	font-size: 30px;
+	position: fixed;
+	top:530px;
+	left: 9%;
+  	cursor: move;
+  	z-index: 10;
+  	color: black;
+}
+#piece30{
+	font-family: "futura",sans-serif; 
+	font-size: 30px;
+	position: fixed;
+	top: 320px;
+	left: 69%;
+  	cursor: move;
+  	z-index: 10;
+  	color: black;
+}
+
+#piece31{
+	font-family: "futura",sans-serif;  
+	font-size: 30px;
+	position: fixed;
+	top:140px;
+	left: 42%;
+  	cursor: move;
+  	z-index: 10;
+  	color: black;
+}
+#piece32{
+	font-family: "futura",sans-serif;  
+	font-size: 30px;
+	position: fixed;
+	top:300px;
+	left: 6%;
+  	cursor: move;
+  	z-index: 10;
+  	color: black;
+}
+
+#piece33{
+	font-family: "futura",sans-serif;  
+	font-size: 30px;
+	position: fixed;
+	top:400px;
+	left: 19%;
+  	cursor: move;
+  	z-index: 10;
+  	color: black;
+}
+#piece34{
+	font-family: "futura",sans-serif;  
+	font-size: 30px;
+	position: fixed;
+	top:560px;
+	left: 29%;
+  	cursor: move;
+  	z-index: 10;
+  	color: black;
+}
+#piece35{
+	font-family: "futura",sans-serif;  
+	font-size: 30px;
+	position: fixed;
+	top:120px;
+	left: 6%;
+  	cursor: move;
+  	z-index: 10;
+  	color: black;
+}
+#piece36{
+	font-family: "futura",sans-serif;  
+	font-size: 30px;
+	position: fixed;
+	top:350px;
+	left: 20%;
+  	cursor: move;
+  	z-index: 10;
+  	color: black;
+}
+#piece37{
+	font-family: "futura",sans-serif;  
+	font-size: 30px;
+	position: fixed;
+	top:780px;
+	left: 78%;
+  	cursor: move;
+  	z-index: 10;
+  	color: black;
+}
+#piece38{
+	font-family: "futura",sans-serif;  
+	font-size: 30px;
+	position: fixed;
+	top:380px;
+	left: 90%;
+  	cursor: move;
+  	z-index: 10;
+  	color: black;
+}
+#piece39{
+	font-family: "futura",sans-serif;  
+	font-size: 30px;
+	position: fixed;
+	top:600px;
+	left: 15%;
+  	cursor: move;
+  	z-index: 10;
+  	color: black;
+}
+#piece40{
+	font-family: "futura",sans-serif;  
+	font-size: 30px;
+	position: fixed;
+	top:800px;
+	left: 9%;
+  	cursor: move;
+  	z-index: 10;
+  	color: black;
+}
+#piece41{
+	font-family: "futura",sans-serif;  
+	font-size: 30px;
+	position: fixed;
+	top:500px;
+	left: 40%;
+  	cursor: move;
+  	z-index: 10;
+  	color: black;
+}
+#piece42{
+	font-family: "futura",sans-serif;  
+	font-size: 30px;
+	position: fixed;
+	top:500px;
+	left: 30%;
+  	cursor: move;
+  	z-index: 10;
+  	color: black;
+}
+#piece43{
+	font-family: "futura",sans-serif;  
+	font-size: 30px;
+	position: fixed;
+	top:600px;
+	left: 83%;
+  	cursor: move;
+  	z-index: 10;
+  	color: black;
+}
+#piece44{
+	font-family: "futura",sans-serif; 
+	font-size: 30px;
+	position: fixed;
+	top:620px;
+	left: 5%;
+  	cursor: move;
+  	z-index: 10;
+  	color: black;
+}
+#piece45{
+	font-family: "futura",sans-serif; 
+	font-size: 30px;
+	position: fixed;
+	top:300px;
+	left: 55%;
+  	cursor: move;
+  	z-index: 10;
+  	color: black;
+}
+#piece46{
+	font-family: "futura",sans-serif; 
+	font-size: 30px;
+	position: fixed;
+	top:310px;
+	left: 45%;
+  	cursor: move;
+  	z-index: 10;
+  	color: black;
+}
+#piece47{
+	font-family: "futura",sans-serif; 
+	font-size: 30px;
+	position: fixed;
+	top:400px;
+	left:55%;
+  	cursor: move;
+  	z-index: 10;
+  	color: black;
+}
+#piece48{
+	font-family: "futura",sans-serif; 
+	font-size: 30px;
+	position: fixed;
+	top:530px;
+	left: 65%;
+  	cursor: move;
+  	z-index: 10;
+  	color: black;
+}
+#piece49{
+	font-family: "futura",sans-serif; 
+	font-size: 30px;
+	position: fixed;
+	top:640px;
+	left: 75%;
+  	cursor: move;
+  	z-index: 10;
+  	color: black;
+}
+#piece50{
+	font-family: "futura",sans-serif; 
+	font-size: 30px;
+	position: fixed;
+	top:560px;
+	left: 85%;
+  	cursor: move;
+  	z-index: 10;
+  	color: black;
+}
+#piece51{
+	font-family: "futura",sans-serif; 
+	font-size: 30px;
+	position: fixed;
+	top:520px;
+	left: 95%;
+  	cursor: move;
+  	z-index: 10;
+  	color: black;
+}
+#piece52{
+	font-family: "futura",sans-serif; 
+	font-size: 30px;
+	position: fixed;
+	top:60px;
+	left: 85%;
+  	cursor: move;
+  	z-index: 10;
+  	color: black;
+}
+#piece53{
+	font-family: "futura",sans-serif; 
+	font-size: 30px;
+	position: fixed;
+	top:300px;
+	left: 35%;
+  	cursor: move;
+  	z-index: 10;
+  	color: black;
+}
+#piece54{
+	font-family: "futura",sans-serif; 
+	font-size: 30px;
+	position: fixed;
+	top:250px;
+	left: 25%;
+  	cursor: move;
+  	z-index: 10;
+  	color: black;
+}
+#piece55{
+	font-family: "futura",sans-serif; 
+	font-size: 30px;
+	position: fixed;
+	top:300px;
+	left: 75%;
+  	cursor: move;
+  	z-index: 10;
+  	color: black;
+}
+#piece56{
+	font-family: "futura",sans-serif; 
+	font-size: 30px;
+	position: fixed;
+	top:380px;
+	left: 3%;
+  	cursor: move;
+  	z-index: 10;
+  	color: black;
+}
+#piece57{
+	font-family: "futura",sans-serif; 
+	font-size: 30px;
+	position: fixed;
+	top:640px;
+	left: 25%;
+  	cursor: move;
+  	z-index: 10;
+  	color: black;
+}
+#piece58{
+	font-family: "futura",sans-serif; 
+	font-size: 30px;
+	position: fixed;
+	top:590px;
+	left: 20%;
+  	cursor: move;
+  	z-index: 10;
+  	color: black;
+}
+#piece59{
+	font-family: "futura",sans-serif; 
+	font-size: 30px;
+	position: fixed;
+	top:650px;
+	left: 55%;
+  	cursor: move;
+  	z-index: 10;
+  	color: black;
+}
+#piece60{
+	font-family: "futura",sans-serif; 
+	font-size: 30px;
+	position: fixed;
+	top:240px;
+	left: 55%;
+  	cursor: move;
+  	z-index: 10;
+  	color: black;
+}
+a:hover{
+	color:lightpink;
+}
+a{
+	color:black;
+  text-align: center;
+font-size: 20px;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media only screen and (max-width: 768px) {
+  [class*="col-"] {
+    width: 100%;
+  }
+}
+
+/* Media Queries: Tablet Landscape */
+@media screen and (max-width: 1060px) {
+    #primary { width:67%; }
+    #secondary { width:30%; margin-left:3%;}  
+}
+
+/* Media Queries: Tabled Portrait */
+@media screen and (max-width: 768px) {
+    #primary { width:100%; }
+    #secondary { width:100%; margin:0; border:none; }
+}
