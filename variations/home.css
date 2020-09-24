@@ -17,6 +17,10 @@
 	font-color: black;
 		color: black;
 }
+a{
+	text-decoration-color: black;
+	text-decoration: none;
+}
 a:hover{
 	color:lightpink;
 }
