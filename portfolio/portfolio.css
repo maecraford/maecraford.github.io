@@ -35,6 +35,12 @@ h2{
   height: 100px;
   text-align: center;
 }
+#fourth {
+  display: flex;
+  width: 100%;
+  height: 100px;
+  text-align: center;
+}
 #class {
   color:white;
   float: left;
