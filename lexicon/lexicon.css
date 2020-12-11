@@ -34,7 +34,7 @@ h1 {
 
 h2 {
     /* font-family: Halyard Display Light, Helvetica, sans-serif ; */
-    font-family: "cursive";
+    font-family: "BaroqueTextJF";
     font-style: normal;
     font-weight: 500;
     font-size: 250px;
@@ -307,7 +307,7 @@ height: 5%;
     /* background-color: rgba(255, 255, 255, 0.8); */
     text-align: center;
     grid-column-start: 1;
-    grid-column-end: 5;
+    grid-column-end: 6;
     grid-row-start: 1;
     grid-row-end: 1;
   }
