@@ -6,7 +6,7 @@
   box-sizing: inherit; 
 }
 @font-face {
-  font-family: "style";
+  font-family: "cursive";
   src: local(BaroqueTextJF.ttf) format(".ttf")
 }
 
@@ -34,7 +34,7 @@ h1 {
 
 h2 {
     /* font-family: Halyard Display Light, Helvetica, sans-serif ; */
-    font-family: "style";
+    font-family: "cursive";
     font-style: normal;
     font-weight: 500;
     font-size: 250px;
