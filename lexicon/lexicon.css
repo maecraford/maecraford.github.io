@@ -5,6 +5,10 @@
   padding: 0;
   box-sizing: inherit; 
 }
+@font-face {
+  font-family: "style";
+  src: local(BaroqueTextJF.ttf) format(".ttf")
+}
 
 html {
   box-sizing: border-box;
@@ -30,7 +34,7 @@ h1 {
 
 h2 {
     /* font-family: Halyard Display Light, Helvetica, sans-serif ; */
-    font-family: BaroqueTextJF;
+    font-family: "style";
     font-style: normal;
     font-weight: 500;
     font-size: 250px;
