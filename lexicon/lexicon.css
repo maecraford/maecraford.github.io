@@ -5,9 +5,21 @@
   padding: 0;
   box-sizing: inherit; 
 }
+/* definition */
 @font-face {
-  font-family: "cursive";
-  src: local(BaroqueTextJF.ttf) format(".ttf")
+    font-family: 'baroquetextjfregular';
+    src: url('design.jasonwalcott.baroquetextjf-webfont.woff2') format('woff2'),
+         url('design.jasonwalcott.baroquetextjf-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+}
+
+/* use */
+body {
+    font-family: design.jasonwalcott.baroquetextjf-webfont, Tahoma, serif;
 }
 
 html {
@@ -24,7 +36,7 @@ body {
 
 h1 {
     /* font-family: Halyard Display Regular, Helvetica, sans-serif ; */
-   font-family: TrashHand;
+   font-family: "trashhand";
     color: #ff0077;
     font-size: 36px;
     line-height: 45px;
@@ -34,7 +46,7 @@ h1 {
 
 h2 {
     /* font-family: Halyard Display Light, Helvetica, sans-serif ; */
-    font-family: "BaroqueTextJF";
+    font-family: "baroquetextjfregular";
     font-style: normal;
     font-weight: 500;
     font-size: 250px;
@@ -57,7 +69,7 @@ h2.row {
 }
 
 h3 {
-    font-family: TrashHand, sans-serif;
+    font-family:"trashhand";
     font-weight: lighter;
     color: #ff0077;
     font-size: 50px;
@@ -69,7 +81,7 @@ h3 {
 
 
 h4 {
-    font-family: BaroqueTextJF;
+    font-family: "baroquetextjfregular";
     color: #ff0077;
     font-size: 300px;
     line-height: 305px;
@@ -79,7 +91,7 @@ h4 {
 
 h5 {
     /* font-family: Halyard Display Light, Helvetica, sans-serif ; */
-    font-family: TrashHand, sans-serif;
+    font-family: "trashhand";
     font-style: italic;
     font-weight: 400;
     letter-spacing: -0.1px;    
@@ -90,7 +102,7 @@ h5 {
 }
 h6 {
     /* font-family: Halyard Display Regular, Helvetica, sans-serif ; */
-    font-family: TrashHand, sans-serif;
+    font-family: "trashhand";
     font-weight: normal;
     color: white;
     font-size: 36px;
@@ -118,7 +130,7 @@ a:hover {
 }
 
 p {
-    font-family: TrashHand, sans-serif;
+    font-family: "trashhand";
     font-style: normal;
     font-weight: 400;
     margin: 0;
