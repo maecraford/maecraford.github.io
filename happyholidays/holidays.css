@@ -6,14 +6,13 @@
   box-sizing: inherit; 
 }
 
-
 html {
   box-sizing: border-box;
   cursor: pointer;
 }
 
 body {
-  background-color: #046124;
+  background-color: #e3f1fc;
   margin-left: 5%;
   margin-right: 5%;
 }
@@ -21,9 +20,10 @@ body {
 
 h1 {
     /* font-family: Halyard Display Regular, Helvetica, sans-serif ; */
-   font-family:"Open Sans";
-    color: white;
+   font-family:"Helvetica";
+    color: black;
     font-size: 30px;
+    font-weight: lighter;
     line-height: 45px;
     padding-bottom: 250px;
     letter-spacing: 2.5px;
@@ -31,20 +31,20 @@ h1 {
 
 h2 {
     /* font-family: Halyard Display Light, Helvetica, sans-serif ; */
-    font-family: "Satisfy";
+    font-family: "Pirata One";
     font-style: normal;
-    font-weight: 500;
-    font-size: 200px;
+    font-size: 180px;
     margin: 0;
     letter-spacing: -0.1px;
     text-align: center;
     color: white;
     animation: mymove 10s infinite;
+    padding: 10%;
 }
 
 @keyframes mymove {
-  from {color:#cce8fc;}
-  to {color: #ad0600;}
+  from {color:#e3f1fc;}
+  to {color: #2eb2ff;}
 }
 
 
@@ -54,9 +54,9 @@ h2.row {
 }
 
 h3 {
-    font-family:  "Open Sans";
-    color: white;
-    font-size: 50px;
+    font-family:  "Pirata One";
+    color: black;
+    font-size: 80px;
     line-height: 56px;
     padding-bottom: 100px;
     text-align: center;
@@ -65,8 +65,8 @@ h3 {
 
 
 h4 {
-    font-family: "Satisfy";
-    color: white;
+    font-family: "Helvetica";
+    color: black;
     font-size: 300px;
     line-height: 305px;
     font-weight: 400;
@@ -76,20 +76,20 @@ h4 {
 
 h5 {
     /* font-family: Halyard Display Light, Helvetica, sans-serif ; */
-    ffont-family:"Open Sans";
+    font-family:"Helvetica";
     font-style: italic;
     font-weight: 400;
     letter-spacing: -0.1px;    
     margin: 20px;
-    color: white;
+    color: black;
     font-size: 20px;
         letter-spacing: 2.5px;
 }
 h6 {
     /* font-family: Halyard Display Regular, Helvetica, sans-serif ; */
-    font-family: "Open Sans";
+    font-family: "Helvetica";
     font-weight: normal;
-    color: white;
+    color: black;
     font-size: 36px;
     line-height: 40px;
     letter-spacing: 2.5px;
@@ -263,17 +263,7 @@ p {
     grid-row-start: 7;
     grid-row-end: 7;
   }
-
-   .grid-item-13 {
-    /* background-color: rgba(255, 255, 255, 0.8); */
-    text-align: left;
-    grid-column-start: 1;
-    grid-column-end: 3;
-    grid-row-start: 8;
-    grid-row-end: 8;
-  }
-
-  .grid-item-14 {
+ .grid-item-17 {
     /* background-color: rgba(255, 255, 255, 0.8); */
     text-align: left;
     grid-column-start: 3;
@@ -281,5 +271,37 @@ p {
     grid-row-start: 8;
     grid-row-end: 8;
   }
+   .grid-item-13 {
+    /* background-color: rgba(255, 255, 255, 0.8); */
+    text-align: left;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 9;
+    grid-row-end: 9;
+  }
 
+  .grid-item-14 {
+    /* background-color: rgba(255, 255, 255, 0.8); */
+    text-align: left;
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 10;
+    grid-row-end: 10;
+  }
+    .grid-item-15 {
+    /* background-color: rgba(255, 255, 255, 0.8); */
+    text-align: left;
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 11;
+    grid-row-end: 11;
+  }
+  .grid-item-16 {
+    /* background-color: rgba(255, 255, 255, 0.8); */
+    text-align: left;
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 12;
+    grid-row-end: 12;
+  }
 
