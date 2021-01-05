@@ -33,9 +33,9 @@ h2 {
     /* font-family: Halyard Display Light, Helvetica, sans-serif ; */
     font-family: "Pirata One";
     font-style: normal;
-    font-size: 180px;
+    font-size: 175px;
     margin: 0;
-    letter-spacing: -0.1px;
+    letter-spacing: 2px;
     text-align: center;
     color: white;
     animation: mymove 10s infinite;
@@ -56,7 +56,7 @@ h2.row {
 h3 {
     font-family:  "Pirata One";
     color: black;
-    font-size: 80px;
+    font-size: 180px;
     line-height: 56px;
     padding-bottom: 100px;
     text-align: center;
@@ -67,9 +67,9 @@ h3 {
 h4 {
     font-family: "Helvetica";
     color: black;
-    font-size: 300px;
-    line-height: 305px;
-    font-weight: 400;
+    font-size: 25px;
+    font-weight: lighter;
+    line-height: 30px;
     text-align: center;
 
 }
@@ -285,8 +285,8 @@ p {
     text-align: left;
     grid-column-start: 3;
     grid-column-end: 5;
-    grid-row-start: 10;
-    grid-row-end: 10;
+    grid-row-start: 9;
+    grid-row-end: 9;
   }
     .grid-item-15 {
     /* background-color: rgba(255, 255, 255, 0.8); */
