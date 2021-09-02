@@ -25,26 +25,27 @@ body {
 
 
 h1 {
-    /* font-family: Halyard Display Regular, Helvetica, sans-serif ; */
+   /* font-family: Halyard Display Regular, Helvetica, sans-serif ; */
     font-family:Futura, sans-serif;
     color: black;
-    font-size: 36px;
-    line-height: 45px;
-    padding-bottom: 250px;
+    font-size: 28px;
+    line-height: 55px;
+    padding-bottom: 150px;
     letter-spacing: 2.5px;
-    text-align: center;
-}
+    font-weight: lighter;
+    text-align: right;
+  }
 
 h2 {
     /* font-family: Halyard Display Light, Helvetica, sans-serif ; */
      font-family:Futura, sans-serif;
     font-style: normal;
     font-weight: 500;
-    font-size: 250px;
+    font-size: 300px;
     margin: 0;
     letter-spacing: -0.1px;
     text-align: center;
-    color:#ffbb00;
+    color:#9a0afa;
 }
 
 
@@ -108,11 +109,11 @@ section {
 
 a {
     text-decoration: none;
-    color: #ffbb00;
+    color: #9a0afa;
 }
 
 a:hover {
-    color: #ff0077;
+    color:  #03fcc2;
    cursor: help;
    font-size: 45px;
 }
@@ -316,8 +317,8 @@ height: 5%;
 
   .grid-item-2 {
     /* background-color: rgba(255, 255, 255, 0.8); */
-    grid-column-start: 2;
-    grid-column-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 6;
     grid-row-start: 2;
     grid-row-end: 2;
   }
@@ -388,7 +389,7 @@ height: 5%;
 
   .grid-item-9 {
     /* background-color: rgba(255, 255, 255, 0.8); */
-    text-align: left;
+    text-align: right;
     grid-column-start: 4;
     grid-column-end: 5;
     grid-row-start: 6;
@@ -398,8 +399,8 @@ height: 5%;
   .grid-item-10 {
     /* background-color: rgba(255, 255, 255, 0.8); */
     text-align: left;
-    grid-column-start: 1;
-    grid-column-end: 3;
+    grid-column-start: 3;
+    grid-column-end: 6;
     grid-row-start: 7;
     grid-row-end: 7;
   }
@@ -425,8 +426,8 @@ height: 5%;
   .grid-item-13 {
     /* background-color: rgba(255, 255, 255, 0.8); */
     text-align: center;
-    grid-column-start: 1;
-    grid-column-end: 5;
+    grid-column-start: 3;
+    grid-column-end: 6;
     grid-row-start: 9;
     grid-row-end: 9;
   }

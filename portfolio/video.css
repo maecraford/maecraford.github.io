@@ -28,23 +28,24 @@ h1 {
     /* font-family: Halyard Display Regular, Helvetica, sans-serif ; */
     font-family:Futura, sans-serif;
     color: black;
-    font-size: 36px;
-    line-height: 45px;
-    padding-bottom: 250px;
+    font-size: 28px;
+    line-height: 55px;
+    padding-bottom: 150px;
     letter-spacing: 2.5px;
-    text-align: center;
-}
+    font-weight: lighter;
+    text-align: right;
+  }
 
 h2 {
     /* font-family: Halyard Display Light, Helvetica, sans-serif ; */
      font-family:Futura, sans-serif;
     font-style: normal;
     font-weight: 500;
-    font-size: 250px;
+    font-size: 400px;
     margin: 0;
     letter-spacing: -0.1px;
     text-align: center;
-    color:#2b95ff;
+    color:#17a2ff;
 }
 
 
@@ -108,11 +109,11 @@ section {
 
 a {
     text-decoration: none;
-    color: #2b95ff;
+    color: #17a2ff;
 }
 
 a:hover {
-    color: #ff0077;
+    color:  #03fcc2;
    cursor: help;
    font-size: 45px;
 }
@@ -316,8 +317,8 @@ height: 5%;
 
   .grid-item-2 {
     /* background-color: rgba(255, 255, 255, 0.8); */
-    grid-column-start: 2;
-    grid-column-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 6;
     grid-row-start: 2;
     grid-row-end: 2;
   }
@@ -489,7 +490,7 @@ height: 5%;
     /* background-color: rgba(255, 255, 255, 0.8); */
     text-align: left;
     grid-column-start: 3;
-    grid-column-end: 5;
+    grid-column-end: 6;
     grid-row-start: 12;
     grid-row-end: 12;
   }
