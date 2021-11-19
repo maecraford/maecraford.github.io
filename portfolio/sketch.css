@@ -26,7 +26,7 @@ body {
 
 h1 {
    /* font-family: Halyard Display Regular, Helvetica, sans-serif ; */
-    font-family:Futura, sans-serif;
+       font-family: 'M PLUS 2', sans-serif;
     color: black;
     font-size: 28px;
     line-height: 55px;
@@ -38,11 +38,10 @@ h1 {
 
 h2 {
     /* font-family: Halyard Display Light, Helvetica, sans-serif ; */
-     font-family:Futura, sans-serif;
+       font-family: 'M PLUS 2', sans-serif;
     font-style: normal;
-    font-weight: 500;
-    font-size: 250px;
-    margin: 0;
+    font-size: 200px;
+    margin: 5%;
     letter-spacing: -0.1px;
     text-align: center;
     color:#ff4d00;
@@ -56,7 +55,7 @@ h2.row {
 }
 
 h3 {
-     font-family:Futura, sans-serif;
+      font-family: 'M PLUS 2', sans-serif;
     font-weight: bold;
     color: black;
     font-size: 80px;
@@ -68,7 +67,7 @@ h3 {
 
 
 h4 {
-    font-family: helvetica ,sans-serif;
+      font-family: 'M PLUS 2', sans-serif;
     font-style:bold;
     margin: 0;
     color: black;
@@ -80,7 +79,7 @@ h4 {
 
 h5 {
     /* font-family: Halyard Display Light, Helvetica, sans-serif ; */
-     font-family:Futura, sans-serif;
+       font-family: 'M PLUS 2', sans-serif;
     font-style: italic;
     font-weight: 400;
     letter-spacing: -0.1px;    
@@ -91,7 +90,7 @@ h5 {
 }
 h6 {
     /* font-family: Halyard Display Regular, Helvetica, sans-serif ; */
-     font-family:Futura, sans-serif;
+        font-family: 'M PLUS 2', sans-serif;
     font-weight: normal;
     color: black;
     font-size: 36px;
@@ -108,18 +107,17 @@ section {
 }
 
 a {
-    text-decoration: none;
+    text-decoration: underline;
     color: #ff4d00;
 }
 
 a:hover {
-    color:  #03fcc2;
-   cursor: help;
-   font-size: 45px;
+    color:  #8bb2fa;
+ 
 }
 
 p {
-    font-family: helvetica ,sans-serif;
+       font-family: 'M PLUS 2', sans-serif;
     font-style: normal;
     font-weight: 400;
     margin: 0;
