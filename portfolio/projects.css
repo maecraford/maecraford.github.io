@@ -374,7 +374,7 @@ height: 5%;
 
   .grid-item-6 {
     /* background-color: rgba(255, 255, 255, 0.8); */
-    text-align: left;
+    text-align: center;
     grid-column-start: 3;
     grid-column-end: 6;
     grid-row-start: 6;
@@ -402,7 +402,7 @@ height: 5%;
 
   .grid-item-9 {
     /* background-color: rgba(255, 255, 255, 0.8); */
-    text-align: right;
+    text-align: center;
     grid-column-start: 3;
     grid-column-end: 6;
     grid-row-start: 8;
@@ -429,7 +429,7 @@ height: 5%;
 
   .grid-item-12 {
     /* background-color: rgba(255, 255, 255, 0.8); */
-    text-align: left;
+    text-align: center;
     grid-column-start: 3;
     grid-column-end: 6;
     grid-row-start: 9;
