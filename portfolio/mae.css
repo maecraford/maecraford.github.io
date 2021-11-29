@@ -11,6 +11,15 @@
 /* use */
 body {
     font-family: 'M PLUS 2', sans-serif;
+    overflow-x: hidden;
+}
+
+.hidden-thing {
+  position: absolute;
+  left: 100%;
+  width: 50px;
+  height: 50px;
+  opacity: 0;
 }
 
 html {
@@ -20,8 +29,8 @@ html {
 
 body {
   background-color: white;
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-left: 2%;
+  margin-right: 2%;
 }
 
 
@@ -134,8 +143,8 @@ img{
   margin-bottom: 5%;
   width: 600px; 
   height: 400px;
-  padding-left: 5%;
-    padding-right: 5%;
+  padding-left: 2%;
+    padding-right: 2%;
 }
 }
 .container-text {
@@ -347,7 +356,7 @@ height: 5%;
     /* background-color: rgba(255, 255, 255, 0.8); */
     text-align: center;
     grid-column-start: 1;
-    grid-column-end: 5;
+    grid-column-end: 6;
     grid-row-start: 4;
     grid-row-end: 4;
   }
