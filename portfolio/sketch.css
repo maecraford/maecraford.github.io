@@ -551,8 +551,8 @@ height: 5%;
   .grid-item-27 {
     /* background-color: rgba(255, 255, 255, 0.8); */
     text-align: center;
-    grid-column-start: 4;
-    grid-column-end: 6;
+    grid-column-start: 1;
+    grid-column-end: 10;
     grid-row-start: 22;
     grid-row-end: 22;
   }  
