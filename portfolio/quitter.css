@@ -58,14 +58,16 @@ h2.row {
 }
 
 h3 {
-     font-family: 'M PLUS 2', sans-serif;
-    font-weight: bold;
+    font-family: 'M PLUS 2', sans-serif;
+    margin: 0;
     color: black;
-    font-size: 80px;
-    line-height: 90px;
+    font-size: 22px;
+    line-height: 45px;
     text-align: left;
-        letter-spacing: 2px;
-    padding: 2%
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 5%;
+    padding-bottom: 2%;
 }
 
 
@@ -127,9 +129,10 @@ p {
     font-size: 22px;
     line-height: 35px;
     text-align: left;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 15%;
+    padding-right: 30%;
     padding-top: 5%;
+    padding-bottom: 2%;
 }
 
 img{
