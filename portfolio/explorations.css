@@ -9,9 +9,6 @@
 
 
 /* use */
-body {
-    font-family: 'M PLUS 2', sans-serif;
-}
 
 html {
   box-sizing: border-box;
@@ -19,28 +16,27 @@ html {
 }
 
 body {
-  background-color: white;
-  margin-left: 5%;
-  margin-right: 5%;
+background-color:#ededdd;
+
 }
 
 
 h1 {
-    /* font-family: Halyard Display Regular, Helvetica, sans-serif ; */
-   font-family: 'M PLUS 2', sans-serif;
-    color: #38c908;
-    font-size: 200px;
-    line-height: 210px;
-    padding-top: 100px;
-    padding-bottom: 150px;
-    letter-spacing: 2.5px;
-    text-align: center;
+  color:#ffaa01;
+font-family: 'Prompt', sans-serif;
+  font-size: 140px;
+  line-height: 150px;
+  font-weight: 500;
+  text-align: left;
+  margin-top:2%;
+  margin-left: 2.5%;
+  margin-bottom: 1%;
 }
 
 h2 {
     /* font-family: Halyard Display Regular, Helvetica, sans-serif ; */
-   font-family: 'M PLUS 2', sans-serif;
-    color: black;
+font-family: 'Prompt', sans-serif;
+   color:#171738;
     font-size: 28px;
     line-height: 45px;
     padding-bottom: 150px;
@@ -48,7 +44,20 @@ h2 {
     font-weight: lighter;
     text-align: right;
 }
+#parent {
+display: inline block;
+text-align: left;
+padding-left: 4%;
+height: 100px;
+}
+#class {
+  color:#171738;
+  float: left;
+  text-align: left;
+  padding-right: 1%;
+  padding-left: 1%;
 
+}
 
 
 h2.row {
@@ -57,34 +66,32 @@ h2.row {
 }
 
 h3 {
-     font-family: 'M PLUS 2', sans-serif;
-    font-weight: bold;
-    color:  #38c908;
-    font-size: 120px;
-    line-height: 150px;
-     text-shadow:3px 3px #ffcc00;
+font-family: 'Prompt', sans-serif;
+    color:  #671118;
+    font-size: 100px;
+    line-height: 110px;
     text-align: center;
         letter-spacing: 2px;
-    padding: 2%
+ 
     
 }
 
 
 h4 {
-   font-family: 'M PLUS 2', sans-serif;
-    font-style:bold;
+  font-family: 'Prompt', sans-serif;
+    font-weight: 200;
     margin: 0;
-    padding-left: 5%;
-    color: #38c908;
-    font-size: 36px;
-    letter-spacing: 2.5px;
+    padding-left: 4%;
+   color:#171738;
+    font-size: 18px;
+    letter-spacing: 1.5px;
     line-height: 200%;
-    text-align: left;
+    text-align: center;
 }
 
 h5 {
     /* font-family: Halyard Display Light, Helvetica, sans-serif ; */
-    font-family: 'M PLUS 2', sans-serif;
+      font-family: 'Prompt', sans-serif;
     font-style: italic;
     font-weight: 400;
     letter-spacing: -0.1px;    
@@ -95,7 +102,7 @@ h5 {
 }
 h6 {
     /* font-family: Halyard Display Regular, Helvetica, sans-serif ; */
-    font-family: 'M PLUS 2', sans-serif;
+      font-family: 'Prompt', sans-serif;
     font-weight: normal;
     color: black;
     font-size: 36px;
@@ -111,29 +118,34 @@ section {
     position: relative;
 }
 
-a {
-   font-family: 'M PLUS 2', sans-serif;
-    text-decoration: underline;
-    color: #38c908;
+p{
+  color:#171738;
+  font-family: 'Prompt', sans-serif;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 200;
+  text-align: center;
+  align-content: center;
+  padding-top: 1%;
+  padding-bottom: 2%;
+
 }
 
-a:hover {
-    color:  #8bb2fa;
- 
+a:hover{
+  color: #016fb9;
+  font-weight: 300;
+  text-decoration: underline;
+
 }
 
-p {
-    font-family: 'M PLUS 2', sans-serif;
-    font-style: thin;
-    margin: 0;
-    color: black;
-    font-size: 22px;
-    line-height: 35px;
-    text-align: left;
-    padding-left: 15%;
-    padding-right: 30%;
-    padding-top: 5%;
-    padding-bottom: 2%;
+
+a{
+  color:#171738;
+  font-family: 'Prompt', sans-serif;
+  font-weight: 200;
+  text-align: center;
+text-decoration: none;
+font-size: 30px;
 }
 
 img{
@@ -142,7 +154,7 @@ img{
   width: 600px; 
   height: 400px;
   padding-left: 5%;
-    padding-right: 5%;
+  padding-right: 5%;
 }
 }
 .container-text {
@@ -233,10 +245,10 @@ height: 5%;
 }
 
 .gallery__item--1 {
-  grid-column-start: 1;
-  grid-column-end: 3;
-  grid-row-start: 1;
-  grid-row-end: 1;
+  grid-column-start: 3;
+  grid-column-end: 6;
+  grid-row-start: 2;
+  grid-row-end: 2;
 
   /** Alternative Syntax **/
   /* grid-column: 1 / span 2;  */
@@ -695,11 +707,10 @@ height: 5%;
   }  
   .grid-item-43 {
     /* background-color: rgba(255, 255, 255, 0.8); */
-    text-align: center;
-    grid-column-start: 1;
+    grid-column-start: 3;
     grid-column-end: 6;
-    grid-row-start: 37;
-    grid-row-end: 37;
+    grid-row-start: 2;
+    grid-row-end: 2;
   } 
   .grid-item-44 {
     /* background-color: rgba(255, 255, 255, 0.8); */

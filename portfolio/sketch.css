@@ -9,7 +9,8 @@
 
 /* use */
 body {
-    font-family:Futura, sans-serif;
+      background-color:#E0e0ce;
+    overflow-x: hidden;
 }
 
 html {
@@ -17,42 +18,49 @@ html {
   cursor: pointer;
 }
 
-body {
-  background-color: white;
-  margin-left: 5%;
-  margin-right: 5%;
-}
 
 
 h1 {
-   /* font-family: Halyard Display Regular, Helvetica, sans-serif ; */
-       font-family: 'M PLUS 2', sans-serif;
-    color: black;
-    font-size: 28px;
-    line-height: 55px;
-    padding-bottom: 150px;
-    letter-spacing: 2.5px;
-    font-weight: lighter;
-    text-align: right;
-  }
+  color:#ffaa01;
+font-family: 'Prompt', sans-serif;
+  font-size: 140px;
+  line-height: 150px;
+  font-weight: 500;
+  text-align: left;
+  margin-top:2%;
+  margin-left: 2.5%;
+  margin-bottom: 1%;
+}
 
 h2 {
-    /* font-family: Halyard Display Light, Helvetica, sans-serif ; */
-       font-family: 'M PLUS 2', sans-serif;
+   font-family: 'Prompt', sans-serif;
     font-style: normal;
-    font-size: 200px;
-    margin: 5%;
-    letter-spacing: -0.1px;
-    text-align: center;
-    color:#ff4d00;
-}
-
-
-
-h2.row {
-    color: #ffbb00;
+      color:#171738;
+      font-weight: 300;
+    font-size: 24px;
+    padding-left: 10%;
     text-align: left;
+
 }
+
+#parent {
+font-family: 'Prompt', sans-serif;
+display: inline block;
+text-align: left;
+padding-left: 4%;
+height: 100px;
+}
+
+#class {
+   font-family: 'Prompt', sans-serif;
+  color:#171738;
+float: left;
+  text-align: left;
+  padding-right: 1%;
+  padding-left: 1%;
+
+}
+
 
 h3 {
       font-family: 'M PLUS 2', sans-serif;
@@ -106,14 +114,21 @@ section {
     position: relative;
 }
 
-a {
-    text-decoration: underline;
-    color: #ff4d00;
+a:hover{
+  color: #016fb9;
+  font-weight: 300;
+  text-decoration: underline;
+
 }
 
-a:hover {
-    color:  #8bb2fa;
- 
+
+a{
+  color:#171738;
+  font-family: 'Prompt', sans-serif;
+  font-weight: 100;
+  text-align: center;
+text-decoration: none;
+font-size: 30px;
 }
 
 p {
