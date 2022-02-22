@@ -412,7 +412,7 @@ height: 5%;
     /* background-color: rgba(255, 255, 255, 0.8); */
     text-align: center;
     grid-column-start: 1;
-    grid-column-end: 5;
+    grid-column-end: 6;
     grid-row-start: 8;
     grid-row-end:8;
   }
@@ -430,7 +430,7 @@ height: 5%;
     /* background-color: rgba(255, 255, 255, 0.8); */
     text-align: center;
     grid-column-start: 1;
-    grid-column-end: 5;
+    grid-column-end: 6;
     grid-row-start: 10;
     grid-row-end: 10;
   }
@@ -439,7 +439,7 @@ height: 5%;
     /* background-color: rgba(255, 255, 255, 0.8); */
     text-align: center;
     grid-column-start: 1;
-    grid-column-end: 5;
+    grid-column-end: 6;
     grid-row-start: 11;
     grid-row-end: 11;
   }
@@ -448,7 +448,7 @@ height: 5%;
     /* background-color: rgba(255, 255, 255, 0.8); */
     text-align: center;
     grid-column-start: 1;
-    grid-column-end: 5;
+    grid-column-end: 6;
     grid-row-start: 12;
     grid-row-end: 12;
   }
@@ -547,7 +547,7 @@ height: 5%;
     /* background-color: rgba(255, 255, 255, 0.8); */
     text-align: center;
     grid-column-start: 1;
-    grid-column-end: 5;
+    grid-column-end: 6;
     grid-row-start: 23;
     grid-row-end: 23;
   }  
@@ -583,7 +583,7 @@ height: 5%;
     /* background-color: rgba(255, 255, 255, 0.8); */
   
     grid-column-start: 3;
-    grid-column-end: 5;
+    grid-column-end: 6;
     grid-row-start: 16;
     grid-row-end: 16;
   }  
@@ -626,7 +626,7 @@ height: 5%;
 
   .grid-item-34 {
     /* background-color: rgba(255, 255, 255, 0.8); */
-    text-align: left;
+    text-align:  center;
     grid-column-start: 1;
     grid-column-end: 6;
     grid-row-start: 28;
