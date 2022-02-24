@@ -93,7 +93,7 @@ h5 {
 font-family: 'Prompt', sans-serif;
      color:#171738;
     font-size: 75px;
-    line-height: 90px;
+    line-height: 80px;
     letter-spacing: 2px;
     font-weight: 500;
     text-align: left;
@@ -151,7 +151,7 @@ font-size: 30px;
 
 img{
   padding-top: 2%;
-  margin-bottom: 5%;
+  margin-bottom: 3%;
   width: 600px; 
   height: 400px;
   padding-left: 5%;

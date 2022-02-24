@@ -38,6 +38,16 @@ font-style: 400;
   margin: 0;
 }
 
+h5 {
+font-family: 'Prompt', sans-serif;
+     color:#171738;
+    font-size: 30px;
+    line-height: 40px;
+    letter-spacing: 1px;
+    font-weight: 300;
+    text-align: center;
+}
+
 
 #parent {
 display: inline block;
@@ -54,6 +64,36 @@ padding-left: 4%;
 
 }
 
+#yargiwood{
+  padding-top: 8%;
+  padding-left: 12%;
+  color:#ff007b;
+  font-family: 'Prompt', sans-serif;
+  font-weight: 300;
+  font-size: 30px;
+  width: 450px;
+}
+
+#cultured{
+  padding-top: 8%;
+  padding-left: 12%;
+  color:#ff007b;
+  font-family: 'Prompt', sans-serif;
+  font-weight: 300;
+  font-size: 30px;
+  width: 450px;
+}
+
+.float-container {
+    padding: 2%;
+}
+
+.float-child {
+    width: 35%;
+    float: left;
+    padding: 2%;
+} 
+
 
 p{
   color:#171738;
@@ -62,7 +102,7 @@ font-family: 'Prompt', sans-serif;
   line-height: 24px;
   font-weight: 200;
   text-align: left;
-  margin-top:2%;
+  margin-top:1%;
   margin-left: 2.5%;
   margin-bottom: 1%;
 }
@@ -234,8 +274,8 @@ font-size: 30px;
 
   .grid-item-2 {
     /* background-color: rgba(255, 255, 255, 0.8); */
-    grid-column-start: 3;
-    grid-column-end: 6;
+    grid-column-start: 1;
+    grid-column-end: 3;
     grid-row-start: 1;
     grid-row-end: 1;
   }
@@ -243,10 +283,10 @@ font-size: 30px;
   .grid-item-3 {
     /* background-color: rgba(255, 255, 255, 0.8); */
     text-align: center;
-    grid-column-start: 1;
-    grid-column-end: 5;
-    grid-row-start: 3;
-    grid-row-end: 3;
+    grid-column-start: 3;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 1;
   }
 
   .grid-item-4 {
