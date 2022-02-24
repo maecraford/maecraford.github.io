@@ -707,10 +707,10 @@ height: 5%;
   }  
   .grid-item-43 {
     /* background-color: rgba(255, 255, 255, 0.8); */
-    grid-column-start: 3;
+    grid-column-start: 1;
     grid-column-end: 6;
-    grid-row-start: 2;
-    grid-row-end: 2;
+    grid-row-start: 37;
+    grid-row-end: 37;
   } 
   .grid-item-44 {
     /* background-color: rgba(255, 255, 255, 0.8); */
