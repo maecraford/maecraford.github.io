@@ -17,13 +17,13 @@ html {
 }
 
 body {
-background-color:#ededdd;
+background-color:#fffde0;
 
 }
 
 
 h1 {
-  color:#ffaa01;
+  color:#1a0042;
 font-family: 'Prompt', sans-serif;
   font-size: 140px;
   line-height: 150px;
@@ -53,7 +53,7 @@ padding-left: 4%;
 height: 80px;
 }
 #class {
-  color:#171738;
+  color:#1a0042;
   float: left;
   text-align: left;
   padding-right: 1%;
@@ -71,7 +71,7 @@ h2.row {
 
 h3 {
 font-family: 'Prompt', sans-serif;
-     color:#171738;
+     color:#1a0042;
     font-size: 75px;
     line-height: 90px;
     letter-spacing: 2px;
@@ -86,7 +86,7 @@ h4 {
    font-family: 'M PLUS 2', sans-serif;
     font-style:bold;
     margin: 0;
-    color: black;
+    color: #1a0042;
     font-size: 24px;
     letter-spacing: 2.5px;
     line-height: 35px;
@@ -100,7 +100,7 @@ h5 {
     font-weight: 400;
     letter-spacing: -0.1px;    
     margin: 20px;
-    color: black;
+    color: #1a0042;
     font-size: 20px;
         letter-spacing: 2.5px;
 }
@@ -108,7 +108,7 @@ h6 {
     /* font-family: Halyard Display Regular, Helvetica, sans-serif ; */
     font-family: 'M PLUS 2', sans-serif;
     font-weight: normal;
-    color: black;
+    color: #1a0042;
     font-size: 36px;
     line-height: 40px;
     letter-spacing: 2.5px;
@@ -123,7 +123,7 @@ section {
 }
 
 p{
-  color:#171738;
+  color:#1a0042;
   font-family: 'Prompt', sans-serif;
   font-size: 18px;
   line-height: 28px;
@@ -138,7 +138,7 @@ p{
 }
 
 a:hover{
-  color: #016fb9;
+  color: #ec1e16;
   font-weight: 300;
   text-decoration: underline;
 
@@ -146,7 +146,7 @@ a:hover{
 
 
 a{
-  color:#171738;
+  color:#1a0042;
   font-family: 'Prompt', sans-serif;
   font-weight: 200;
   text-align: center;
