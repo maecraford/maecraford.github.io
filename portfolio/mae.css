@@ -10,7 +10,7 @@
 
 /* use */
 body {
-      background-color:#ededdd;
+      background-color:#fffde0;
     overflow-x: hidden;
 }
 
@@ -29,7 +29,7 @@ html {
 
 
 h1 {
-  color:#ffaa01;
+  color:#171738;
 font-family: 'Prompt', sans-serif;
   font-size: 140px;
   line-height: 150px;
@@ -131,7 +131,7 @@ font-family: 'Prompt', sans-serif;
 }
 
 a:hover{
-  color: #016fb9;
+  color: #ec1e16;
   font-weight: 300;
   text-decoration: underline;
 
