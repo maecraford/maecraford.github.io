@@ -108,17 +108,18 @@ section {
 display: inline block;
 text-align: left;
 padding-left: 4%;
-height: 100px;
 }
 
 #class {
-  color:#171738;
-float: center;
+  color:#1a0042;
+  float: left;
   text-align: left;
   padding-right: 1%;
   padding-left: 1%;
 
 }
+
+
 
 
 p{
