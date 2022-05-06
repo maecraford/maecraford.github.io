@@ -85,7 +85,9 @@ padding-left: 4%;
 }
 
 .float-container {
-    padding: 2%;
+    display: flex; 
+justify-content: center; 
+align-items: center;
 }
 
 .float-child {
