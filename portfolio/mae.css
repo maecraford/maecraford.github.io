@@ -128,7 +128,6 @@ font-family: 'Prompt', sans-serif;
   font-size: 18px;
   line-height: 28px;
   font-weight: 200;
-  padding-left: 15%;
 }
 
 a:hover{
@@ -150,8 +149,6 @@ font-size: 30px;
 img{
   padding-top: 2%;
   margin-bottom: 5%;
-  width: 600px; 
-  height: 400px;
   padding-left: 2%;
     padding-right: 2%;
 }
@@ -255,8 +252,8 @@ height: 5%;
 }
 
 .gallery__item--2 {
-  grid-column-start: 3;
-  grid-column-end: 4;
+  grid-column-start: 1;
+  grid-column-end: 5;
   grid-row-start: 4;
   grid-row-end: 4;
 
@@ -346,19 +343,19 @@ height: 5%;
 
   .grid-item-2 {
     /* background-color: rgba(255, 255, 255, 0.8); */
-    grid-column-start: 3;
-    grid-column-end: 6;
-    grid-row-start: 1;
-    grid-row-end: 1;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 2;
   }
 
   .grid-item-3 {
     /* background-color: rgba(255, 255, 255, 0.8); */
     text-align: center;
     grid-column-start: 1;
-    grid-column-end: 5;
-    grid-row-start: 3;
-    grid-row-end: 3;
+    grid-column-end: 6;
+    grid-row-start: 10;
+    grid-row-end: 10;
   }
 
   .grid-item-4 {
